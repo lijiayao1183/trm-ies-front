@@ -1,0 +1,137 @@
+@base: #f9514e; @base-highlight:#f9514e; //front
+//@base: #d55c54; @base-highlight:#da4442;  //ucenter
+//@base: #6289fc; @base-highlight:#587be0; //mgt 
+a:hover,
+a:focus {
+  color: @base-highlight
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-default {
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.btn-default.grey{
+	background: #d8d8d8;
+    border-color: #d8d8d8;
+}
+.btn-default.air.highlight{
+	color: @base;
+    border-color: @base;
+    background: transparent;
+}
+.btn-default.air:hover{
+	color: @base;
+    border-color: @base;
+    background: transparent;
+}
+
+.btn-default.grey:hover,.btn-default:hover {
+  color: #fff;
+  background-color:  @base-highlight;
+  border-color:  @base-highlight;
+}
+
+.btn-default:active,
+.btn-default.active,
+.btn-default.highlight,
+.open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: @base;
+  border-color:@base;
+}
+.btn-label {
+  background: @base;
+  color: #fff;
+  padding: 4px 13px;
+  border-radius: 2px;
+  line-height: 12px;
+  font-size: 12px;
+}
+.btn-kefu:hover,
+.btn-collect-large:hover {
+  background-color:  @base-highlight;
+  color: #FFF;
+  border: 1px solid  @base-highlight;
+}
+.title .breadcrumb > .active {
+  color: @base;
+}
+.box-hasline dt {
+  border-left: 3px solid @base;
+}
+.title dd a.rank.active {
+  background:  @base;
+  color: #fff;
+  border-radius: 2px;
+}
+.all-sort-btn {
+  background-color: @base;
+  width: 200px;
+}
+.navtitle {
+  background: #fff;
+  border-bottom: 2px solid  @base;
+}
+.nav > li:first-child > a:focus,
+.nav > li:first-child > a:hover {
+  text-decoration: none;
+  background-color: @base-highlight !important;
+  margin: 0;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: @base-highlight;
+  /*  background:none !important;*/
+  border-radius: 5px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: @base;
+  font-size: 1.3em;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color:  @base-highlight;
+  background: none !important;
+  border-radius: 5px;
+}
+.default-color {
+  color: @base;
+}
+.default-color a {
+  color: @base;
+}
+.default-color-bg {
+  background:  @base;
+}
+#searchSubmit {
+  float: left;
+  width: 76px;
+  height: 37px;
+  border: 0;
+  background:  @base url(../images/search.png) no-repeat 50% 50%;
+  outline: none;
+}
+.left-nav-list li:hover,
+.left-nav-list li.active,
+.left-nav-list li:hover a,
+.left-nav-list li.active a {
+  background:  @base;
+  color: #FFF;
+}
+.pub-btn {
+  background-color:  @base;
+}
+/*��ҳ������ɫ����д*/
+.light-theme .current {
+    background:  @base !important;
+    border-color:  @base !important;
+    color: #FFF;
+    cursor: default;
+}
+.light-theme .ellipse {
+    color:  @base; !important;
+}

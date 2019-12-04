@@ -1,0 +1,342 @@
+@CHARSET "UTF-8";
+
+.ellipsis{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.max-w200{
+	max-width: 200px;
+}
+/* 主体 */
+.patent-right{
+	width: 910px;
+	/* height: 100%; */
+	min-height: 875px;
+	margin-left: 20px;
+	background-color: #fff;
+}
+.kp-title{
+	margin: 30px auto 10px;
+    font-size: 18px;
+    text-align: center
+}
+.adorn-down {
+    height: 15px;
+    width: 365px;
+    margin: 0 auto;
+    background: url(../images/home/home-icon.png) no-repeat center center;
+}
+/* 申报指南 */
+.guided,
+.publicity,
+.policies{
+	padding-left: 20px; 
+}
+.guided-item{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.guided-item .guided-item-div{
+	width: 130px;
+	height: 71px;
+	float: left;
+}
+.guided-item .bg1{
+	background: url("../images/home/g-bg.png") no-repeat center center;
+}
+.guided-item .bg1:hover,
+.guided-item .bg1.active{
+	background: url("../images/home/g-bg-h.png") no-repeat center center;
+}
+.guided-item .bg2{
+	background: url("../images/home/b-bg.png") no-repeat center center;
+}
+.guided-item .bg2:hover,
+.guided-item .bg2.active{
+	background: url("../images/home/b-bg-h.png") no-repeat center center;
+}
+.guided-item .bg3{
+	background: url("../images/home/green-bg.png") no-repeat center center;
+	width: 100px;
+}
+.guided-item .bg3:hover,
+.guided-item .bg3.active{
+	background: url("../images/home/green-bg-h.png") no-repeat center center;
+}
+.guided-item .bg1:hover span,
+.guided-item .bg1.active span,
+.guided-item .bg3:hover span,
+.guided-item .bg3.active span{
+	border-bottom: 2px solid #87bd43
+}
+.guided-item .bg2:hover span,
+.guided-item .bg2.active span{
+	color: #088ab4
+}
+.guided-item .bg1 span,
+.guided-item .bg3 span{
+	font-size: 12px;
+	height: 71px;
+	line-height: 71px;
+	color: #87bd43;
+	margin-left: 24px;
+	font-weight: bolder;
+}
+.guided-item .bg3 span{
+	margin-left: 26px;
+}
+.guided-item .bg2 span{
+	font-size: 12px;
+	height: 50px;
+	margin-left: 13px;
+	color: #74dee5;
+	display: block;
+    padding-top: 17px;
+    width: 70px;
+    text-align: center;
+    font-weight: bolder;
+}
+.guided-item .guided-item-div{
+	cursor: pointer;
+}
+.guided-content{
+	margin: 0px 20px 30px 0;
+	padding: 20px 10px;
+	height: 179px;
+}
+.guided-content-item{
+	display: none;
+}
+.guided-content-item.cur{
+	display: block;
+}
+.guided-content-item h4{
+	height: 28px;
+	line-height: 28px;
+	color: #848484;
+	margin: 0;
+	font-size: 12px;
+}
+.guided-content-item span{
+	line-height: 20px;
+	height: 20px;
+}
+.guided-content-item h4 span.blue-dot{
+	width: 10px;
+	height: 10px;
+	background:  url(../images/home/blue-dot.png) no-repeat center center;
+	display: inline-block;
+	margin-right: 5px;
+}
+.guided-content-item .m-left30 span.blue-arr{
+	width: 10px;
+	height: 21px;
+	background:  url(../images/home/blue-arr.png) no-repeat center center;
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+.m-left30{
+	color: #848484;
+	margin-left: 30px;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+/* 公示 */
+.publicity{
+	margin-bottom: 50px;
+}
+.publicity-content{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.publicity-content .identity,
+.publicity-content .examination{
+	width: 425px;
+	height: 190px;
+	border: 1px solid #e5e5e5;
+	border-radius: 2%;
+	float: left;
+}
+.publicity-content .identity{
+	margin-right: 20px;
+}
+.publicity-content h1{
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	font-size: 14px;
+	border-bottom: 1px solid #e5e5e5;
+	color: #333;
+    font-weight: bolder;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.publicity-content h1 span{
+	float: left;
+}
+.publicity-content h1 a{
+	float: right;
+	font-size: 19px;
+    line-height: 30px;
+    color: #848484;
+}
+.identity .bd,
+.examination .bd{
+	padding: 15px;
+}
+.identity .infoList,
+.examination .examination-ul{
+	overflow: hidden;
+	padding: 15px 0;
+}
+.identity .infoList li,
+.examination .examination-ul li{
+	height: 24px;
+	line-height: 24px;
+	color: #797979;
+	font-size: 11px;
+}
+.identity .infoList li a,
+.examination .examination-ul li a{
+	float: left;  
+	cursor: default;
+}
+.identity .infoList li span,
+.examination .examination-ul li span{
+	float: right;
+}
+.identity .infoList li:hover span,
+.identity .infoList li:hover a,
+.examination .examination-ul li:hover span,
+.examination .examination-ul li:hover a{
+	color: #2d85ee;
+}
+.red-txt{
+	font-size: 13px;
+	color: #333;
+	margin-top: 15px;
+	margin-left: 12px;
+}
+/* .identity .bd infoList li a,
+.examination .bd .examination-ul li a{
+	cursor: default;
+} */
+/* 政策法规 */
+.policies{
+	margin-bottom: 28px;
+}
+.policies-content{
+	height: 292px;
+	background-color: #f6f6f6;
+	margin-top: 25px;
+	position: relative;
+	margin-right: 20px;
+}
+
+.policies-txt{
+	margin-bottom: 30px;
+	padding: 45px 35px 0;
+	
+}
+.policies-txt .inform-show {
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+    color: #797979;
+}
+.policies-txt .inform-show div{display: inline-block}
+/* .policies-txt .inform-show .inform-title {
+    height: 30px;
+    line-height: 30px;
+}
+.policies-txt .inform-show .inform-title span {
+    display: inline-block;
+    -float: left;
+} */
+.dot-icon {
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/home/dot.png) no-repeat center center;
+    margin: 2px 10px 9px 0px;
+}
+/*.infrom-show .inform-title span {
+    display: block;
+    -float: left;
+}
+.policies-txt .inform-show .inform-title .inform-span a {
+    font-size: 11px;
+    color: #797979;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 1000px;
+    word-break: break-all;
+    overflow: hidden;
+}
+.policies-txt .inform-show .inform-title .inform-span a:hover{
+	color: #4686e7;
+}
+.policies-txt a.inform-span:hover{
+	color: #4686e7;
+}
+.policies-txt .inform-show .inform-title span.inform-date {
+    float: right;
+} */
+.inform-date{
+	float: right
+}
+.dot-div{
+	float:left;
+	width:20px;
+	height: 16px;
+	margin-top:8px
+}
+.div-hover{
+	float:left;
+	width: 780px;
+}
+.div-hover:hover a,
+.div-hover:hover span{
+	color: #4686e7;
+}
+.more-btn {
+    width: 100px;
+    height: 28px;
+    background: #b3bfcf;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 4px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: block;                    /*add by sunfang  */
+    width: 90px;
+}
+.more-btn:hover{
+	background-color:#4686e7; 
+	color:white;
+}
+/* .entername-ellipsis{                        add by sunfang 2017-06-23 
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 750px;
+} */
+.ellipsis500{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 700px;
+    display: inline-block;
+    float: left;
+}
+.browser-tip{
+    font-size: 12px;
+    color: #f9514e;
+    text-indent: 10px;
+}
+

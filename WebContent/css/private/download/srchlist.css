@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+.patent-right {
+    width: 910px;
+    /* height: 100%; */
+    margin-left: 20px;
+    background-color: #fff;
+}
+.patent-right .place{
+	width: 870px;
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	font-size: 14px;
+	margin: 0 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.download-list{
+	width: 828px;
+	overflow: hidden;
+	margin: 25px auto;
+}
+.download-list table {
+    width: 825px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.download-list table > thead {
+    background: #f9f9f9;
+}
+.download-list table thead th {
+    background: #f9f9f9;
+}
+.download-list table th, .download-list table td {
+    height: 40px;
+    vertical-align: middle;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    padding: 0 5px;
+}
+.text-center {
+    text-align: center;
+}
+tr.bg-f9{
+	background: #f9f9f9;
+}
+.download-icon{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 5px;
+	background: url("../../../images/download-icon.png") no-repeat center center;
+}
+.w410{
+	width: 410px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.w170{
+	width: 170px;
+}
+.w125{
+	width: 125px;
+}
+.w80{
+	width: 80px;
+}
+.download-list tbody{
+	font-size: 12px;
+}
+.download-list tbody>tr>td:first-child{
+	text-align: left;
+    color: #333;
+}
+.download-list tbody>tr>td{
+    color: #797979;
+}
+th{
+	font-weight: normal;
+}

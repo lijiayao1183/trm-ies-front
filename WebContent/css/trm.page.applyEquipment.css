@@ -1,0 +1,441 @@
+@CHARSET "UTF-8";
+.form-topbar{
+    background-color: #FFF;
+    z-index: 999;
+    width: 870px;
+    padding-bottom: 10px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+}
+.form-topbar:first-child{
+	border-top: none;
+}
+.ucenter-content .form-group{
+	height: 70px !important;
+}
+.ucenter-content .form-group .error-tips{
+	font-size: 11px;
+	line-height: 20px !important;
+	margin-left: 20px;
+	position:absolute;
+}
+.form-group>div.second-column{
+	margin-left: 90px;
+}
+.ucenter-content .form-group input[type=text],
+.ucenter-content .form-group select{
+    width: 480px;
+    border-radius: 2px;	
+}
+.ucenter-content .form-group span.valid_message_select,
+.ucenter-content .form-group span.valid_message{
+	margin-top: 0px;
+}
+.form-topbar .apply-btn button{
+    width: 80px;
+    background: #fff;
+    margin-left: 20px;
+}
+.form-topbar .apply-btn #go_back,
+.form-topbar .apply-btn #go_back:hover,
+.form-topbar .apply-btn #reset_form,
+.form-topbar .apply-btn #reset_form:hover,
+.form-topbar .apply-btn #save_form,
+.form-topbar .apply-btn #save_form:hover,
+.form-topbar .apply-btn #submit_form,
+.form-topbar .apply-btn #submit_form:hover{
+	color: #fff;
+    border: 1px solid #000;
+}
+.form-topbar .apply-title{
+    text-align: left;
+    font-size: 18px;
+}
+.ucenter-content .form-content form{
+	padding: 0px 15px 30px 15px;
+}
+.ucenter-content .form-content .form-content-title{
+    color: #ff0000;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.ucenter-content .form-group label:first-child{
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+}
+.ucenter-content .form-group .single-column label:first-child{
+	width: 100px;
+	text-align: left;
+	margin-right: 16px;
+}
+.ucenter-content .form-group .checkbox-wrap{
+	width: auto;
+	margin-left: 14%;
+	font-size: 12px;
+	float: none;
+}
+.ucenter-content .form-group .checkbox-wrap .checkbox-wrap__heading{
+	font-size: 14px;
+}
+.ucenter-content .form-group .checkbox-wrap .tooltips{
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    background-size: 39px;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon_tooltips.png);
+    background-position: -20px 0px;
+    vertical-align: sub;
+}
+.ucenter-content .form-group .checkbox-wrap label{
+	float: none;
+	width: auto;
+    text-align: left;
+    margin-left: 0;
+}
+.ucenter-content .form-group .checkbox-wrap input[type="checkbox"] {
+    margin-top: 10px;
+}
+.table{
+	border: 1px solid #CCC;
+	margin-bottom: 50px;
+}
+.table th{
+	font-weight: normal;
+	font-size: 14px;
+    color: #000;
+}
+.table th,
+.table td{
+    border: 1px solid #CCC; 
+}
+.table tbody tr[status='p'] .td1 {
+	text-align:left;
+	padding-left:10px;
+}
+.table tbody tr[status='p'] .td2 {
+	text-align:left;
+}
+.apply-sum-form .form-group>div>label{
+	width: 170px;
+}
+.apply-sum-form .form-group input[type=text]{
+    width: 240px;
+    background: #fff;
+}
+.apply-sum-form .form-group>div.second-column{
+	margin-left: 20px;
+}
+.apply-sum-form .form-group>div{
+	width: 410px;
+}
+.ucenter-content .form-control {
+    height: 40px;
+    line-height: 40px;
+}
+.ucenter-content .w50 {
+    width: 50px;
+}
+.ucenter-content .w100 {
+    width: 100px;
+}
+.ucenter-content .w66 {
+    width: 66px;
+}
+.ucenter-content .w110 {
+    width: 110px;
+}
+.ucenter-content .apply-amount {
+    line-height: 15px;
+}
+.ucenter-content .w125 {
+    width: 125px;
+}
+.ucenter-content .w187 {
+    width: 187px;
+}
+.ucenter-content .w177 {
+    width: 177px;
+}
+.ucenter-content table input{
+    width: 240px;
+    /* border: none; */
+}
+.ucenter-content table input.patentnum{
+    width: 170px;
+}
+.ucenter-content table select{
+	width: 240px;
+    height: 25px;
+}
+.ucenter-content table input:focus{
+    outline-offset: 0px;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.table > thead > tr > th{
+	font-size: 14px;
+}
+.table > tbody > tr > td{
+	padding: 5px 0px;
+}
+.table > thead > tr > th, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > tbody > tr > td, 
+.table > tfoot > tr > td{
+	vertical-align: middle;
+	padding: 5px 0px;
+	font-weight: normal;
+}
+.ucenter-content .span-checkbox,
+.ucenter-content .span-radio{
+    position: relative;
+}
+.ucenter-content .submit-files{
+    position: relative;
+    display: block;
+    width: 20px;
+    background: url(/images/icon-operate.png) 0 0 no-repeat;
+    height: 20px;
+    left: 23px;
+    cursor: pointer;
+    background-position: 1px -84px;
+}
+#sum_apply,#sum_warrant{
+	font-size: 14px;
+}
+#sumwarrant,#sumApply{
+	color: #000;
+}
+.modal-form{
+	left: 33% !important;
+    top: 30% !important;
+}
+.modal-content-form{
+    width: 1300px!important;
+    height: 720px;
+}
+.fileType-area{
+	margin-top: 12px;
+    margin-left: 50px;
+    float: left;
+    width: 270px;
+    height: 559px;
+    border: 1px solid #CCC;
+}
+.filetypetile{
+	border-left: 2px solid #2e85ee;
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-indent: 20px;
+    color: #2e85ee;
+    background-color: #f0f0f0;
+}
+.fileNav{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 12px;
+    line-height: 20px;
+    padding: 10px;
+    min-height: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+.fileNav.active,
+.fileNav:hover{
+    background-color: #2e85ef;
+    color: #FFF;
+}
+.modal-body-form .table th{
+	background-color: #f9f9f9;
+	color: #000;
+}
+.modal-body-form .apply-btn>div{
+	width: 80px;
+	font-size: 14px;
+}
+.modal-body-form .apply-btn #addfile,
+.modal-body-form .apply-btn #addfile:hover{
+	color: #000;
+    border: 1px solid #000;
+	background-color: #fff;
+	overflow: hidden;
+}
+.fileInput{
+	font-size: 200px;
+}
+.modal-body-form .apply-btn #Savefile,
+.modal-body-form .apply-btn #Savefile:hover{
+	color: #000;
+    border: 1px solid #000;
+	background-color: #fff;
+}
+.modal-body-form .apply-btn #closefile,
+.modal-body-form .apply-btn #closefile:hover{
+	color: #000;
+    border: 1px solid #000;
+	background-color: #fff;
+}
+.modal-body-form .upload-tips{
+	color: #adadad;
+    font-size: 12px;
+}
+.modal-body-form table tr:nth-child(even){
+	background:#F9F9F9;
+}
+.filerighttable{
+    float: left;
+    border: 1px solid #CCC;
+    width: 908px;
+    height: 560px;
+    margin: 13px;
+    margin-left: 20px;
+    padding: 20px;
+    max-height: 560px;
+    overflow-y: scroll;
+}
+.filerighttable table{
+    border: 1px solid #CCC;
+}
+.filerighttable .w80{
+    width: 80px;
+}
+.filerighttable .w410{
+    width: 410px;
+}
+.filerighttable .w150{
+    width: 150px;
+}
+.filerighttable .w120{
+    width: 120px;
+}
+#confirm-modal #modal-body #modal-message a{
+	display: inline-block;
+}
+.upload-tips{
+	font-size: 11px;
+    line-height: 10px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #DDD; opacity:1; 
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #DDD;opacity:1;
+}
+input:-ms-input-placeholder{
+    color: #DDD;opacity:1;
+}
+input::-webkit-input-placeholder{
+    color: #DDD;opacity:1;
+}
+
+/*未登录提示框 start*/
+.modal-content-tips{
+	width: 400px !important;
+}
+.modal-content-tips .modal-close{
+    display: inline-block !important;
+}
+.modal-content-tips .modal-title{
+	color: #2d85ee;
+	font-weight: bold;
+}
+.modal-content-tips .modal-body-tips{
+    border-bottom: 1px dotted #2d85ee;
+    text-indent: 28px;
+    padding: 30px;
+    text-align: left;
+}
+.modal-content-tips .modal-body-tips b{
+    color: #ff0000;
+}
+.modal-content-tips .modal-footer-tips button{
+	float: right;
+}
+/*未登录提示框 end*/
+
+/* 进度条样式 start */
+#progress1 .bar,
+#progress2 .bar {
+	width:0;
+}
+
+/* 进度条样式 end */
+
+/* loading pic 样式 start */
+.loading-area {
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+	opacity:0.6;
+	z-index:9999;
+}
+.loading-area #loading_pic {
+	position:fixed;
+}
+
+/* loading pic 样式 end */
+.center-block{
+	text-align: center;
+    margin: 40px 0;
+}
+.btn{
+	-webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin: 0 20px;
+}
+.btn-save{
+    background-color: #419ff6;
+    border-color: #419ff6;
+}
+.btn-submit{
+    background-color: #58c4f9;
+    border-color: #58c4f9;
+}
+.laydate-icon-choose{
+	background: #fff !important;
+}
+
+.relAdd{display:inline-block;width:200px;height:26px;position:relative;padding-left: 46px; }
+.relAdd span{font-size:50px;font-weight:bold;cursor:pointer;position:absolute;top:-27px;left:0;}
+.relAdd span:hover{color:blue;}
+
+/* 表格样式 */
+textarea {margin: 10px 0;border-color: #ccc;}
+h1{text-align:center;font-size:14px;line-height:36px;}
+h1 span{display:inline-block; margin: 0 40px 0 0;}
+h2{text-align:center;}
+h2 input{/* border-top:none;border-left:none;border-right:none; */font-size:24px;width:504px;text-align:center;}
+table{width:100%;}
+table td input{display:inline-block !important;}
+table td select{display:inline-block !important;}
+.error-tips label {color:#f00;}
+table tr{height:66px;}
+table tr td{padding:0 5px;}
+table tr td:nth-child(odd){width:20%;text-align:center;} 
+.uploadfile-tips{width:200px;display: inline-block;float:right;}
+.col-sm-4 .btn{color:#333;}
+.col-sm-4{margin-top:10px; padding-left:0;}
+.usertypeError{display:inline-block;color:#f00;position: absolute;top: 24px;right: 50px;}
+.sheibeiError{display:inline-block;color:#f00;position: absolute;top: 24px;right: 50px;}
+.dropdown-toggle{width:480px !important;}
+.form-content{
+    box-shadow: 0 0 10px #ccc;
+    background: #fff;
+}
+.content-box {
+   padding: 0 0;
+   background: #f5f5f5;
+}
+

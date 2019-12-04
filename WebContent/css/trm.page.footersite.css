@@ -1,0 +1,39 @@
+.sidebar {
+    width: 240px;
+    min-height: 500px;
+    height: 100%;
+    padding: 0 0 50px 0;
+    border-right: 2px solid #ccc;
+}
+.sidebar li {
+    width: 240px;
+    height: 60px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+}
+.sidebar li.active {
+    border-right: 2px solid #419ff6;
+    color: #419ff6;
+    font-size: 24px;
+}
+.content-wrap {
+    width: 890px;
+    min-height: 500px;
+}
+.content-wrap p{
+	margin: 10px 0;
+	line-height: 1.8;
+	letter-spacing: 2px;
+}
+.content-wrap .indent--2{
+	text-indent: 2em;
+}
+.content-wrap .indent--4{
+	text-indent: 4em;
+}
+.m__t--50{
+	margin-top: 50px;
+}

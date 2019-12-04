@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    	<meta http-equiv="Content-Style-Type" content="text/css"/>
+		<title></title>
+			<style type="text/css">
+			* {
+			    margin: 0;
+			    padding: 0;
+			    list-style: none;
+			}
+			* {
+			    -webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    box-sizing: border-box;
+			}
+			.full-container {
+	    		background-color: #fff;
+	    		position: relative;
+	    		width: 100%;
+			    margin-left: auto;
+			    margin-right: auto;
+			}
+			.container {
+				margin: 20px auto;
+				padding: 30px;
+			    background: #fff;
+			    background-color: #f6f7f9;
+			    width: 100%;
+			}
+			.title {
+			    text-align: center;
+			    font-size: 24px;
+			    color: #333;
+			    width: 90%;
+			    margin: 5% auto;
+			}
+			.subTitle{
+				text-align: center;
+				font-size: 10px;
+			    color: #666;
+			    width: 90%
+			    line-height: 20px;
+			    margin-bottom: 25px;
+			    overflow: hidden;
+			}
+			subTitle__item{
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    margin-left: 15%;
+			}
+			.content{
+			    text-indent: 1.5em;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="page full-container">
+		<div class="container">
+			<h3 class="title">${title}</h3>
+			<br></br>
+			<h5 class="subTitle">
+				发布单位：${publishUnit}
+				                                                      
+				发布时间：${publishTime}
+			</h5>
+			<div class="content">
+				${context}
+			</div>
+		</div>
+	</div>
+	<span style="page-break-after:always;"></span>
+	</body>
+</html>

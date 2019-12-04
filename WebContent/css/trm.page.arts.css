@@ -1,0 +1,189 @@
+/*!
+trm.page.arts.css - 页面级的css，文章类型
+Copyright (c) 2016 Trm
+*/
+ul.arts-list-item{
+	
+}
+ul.arts-list-item li{
+	border-bottom: 2px dotted #e0dfdf;
+    margin: 0 10px;
+    padding: 20px 0px;
+    width: 800px;
+}
+ul.arts-list-item li:last-child{
+	border: none;
+}
+ul.arts-list-item dd img{
+	width: 230px;
+	height:176.9px;
+	margin-right: 26px;
+}
+ul.arts-list-item dt{
+	width:542px;
+}
+ul.arts-list-item.no-img dt{
+	width:800px;
+}
+ul.arts-list-item dt .name a:hover,
+ul.arts-list-item dt .name a:active{
+	text-decoration: underline;
+}
+ul.arts-list-item dt h4,
+.arts-detail .title h4{
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+ul.arts-list-item dt h5,
+.arts-detail .title h5{
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;    
+}
+ul.arts-list-item dt p{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #555;
+    overflow: hidden;
+    height: 37px;
+}
+ul.arts-list-item dt p.high-intro{
+    height: 56px;
+}
+ul.recom.only-word{
+	padding: 0px 11px 0px 7px;
+    width: 100%;
+}
+ul.recom.only-word li{
+	font-size: 12px;
+	color: #555; 
+	line-height: 30px;
+    height: 30px;
+    list-style-type: disc;
+    list-style-position: inside;    
+    overflow: hidden;    
+}
+/*ul.recom.only-word li a{
+	color: #555;
+}*/
+ul.recom.only-img{
+	margin-bottom: 0;
+}
+ul.recom.only-img li{
+	display: inline;
+    float: left;
+}
+ul.arts-list-item dd img:hover{
+	box-shadow: 0px 1px 9px 0px rgba(50, 50, 50, 0.53);
+    cursor: pointer;	
+}
+ul.recom.only-img li img:hover{
+    box-shadow: 0px 1px 9px 0px rgba(50, 50, 50, 0.23);
+    cursor: pointer;	
+}
+ul.recom.only-img li img{
+    width: 114px;
+    height: 87.69px;
+    padding: 4px;
+}
+.arts-detail{
+	padding: 20px 30px;
+	min-height: 380px;
+}
+.arts-detail .detail img{
+	 padding: 18px 0px;
+	 max-width: 852px;
+}
+.arts-detail .detail p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #555;
+    text-indent: 2em;
+}
+.arts-detail .bdsharebuttonbox{
+	left: -190px;
+}
+.arts-detail .totle-num{
+    margin-left: 70px;
+}
+.arts-detail .totle-num i{
+	width: 16px;
+	height: 9px;
+	display: inline-block;
+    background: url(/images/icon-assist.png) no-repeat;
+    background-position: 0px -75px;
+}
+
+/*详情页上下翻页 liujie 20160805*/
+.arts-updown {
+    overflow: hidden;
+    width: 560px;
+    height: 44px;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    margin: 40px 0 60px 0;
+}
+
+.arts-updown .up,
+.arts-updown .down {
+	float: left;
+    width: 280px;
+    height: 44px;
+    overflow: hidden;
+    display: inline;
+}
+.arts-updown .up:hover,
+.arts-updown .down:hover
+ {
+	background-color: #ebebeb;
+	transition: all 0.15s linear 0s;
+}
+.arts-updown .active
+{
+	background-color: #ebebeb;
+}
+.arts-updown .up {
+	border-right: 2px solid #fff;
+}
+
+.arts-updown .up i,.arts-updown .down i {	
+    width: 35px;
+    display: inline;
+    height: 39px;
+    background: url("../images/arts-icons.png") no-repeat 0 0;   
+}
+.arts-updown .up i{
+	background-position: -86px 12px;
+    margin: 0 6px 0 20px;
+    float: left;
+}
+.arts-updown .down i {
+    background-position: -109px 12px;
+	margin: 0 20px 0 6px;
+	float: right;
+}
+.arts-updown .up span,.arts-updown .down span {
+	float: left;
+	display: inline;
+	line-height: 44px;
+	color: #999;
+}
+.arts-updown .down a {
+    text-align: right;
+}
+.arts-updown a {
+	width: 169px;
+	float: left;
+	display: inline;
+	line-height: 44px;
+	height: 44px;
+	overflow: hidden;
+	color: #000;
+	padding: 0px 10px;
+}
+.detail table,.detail tr td{
+	border:1px solid;
+}

@@ -1,0 +1,66 @@
+.btn.small {
+    margin: 0 2px;
+    padding: 4px 6px !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3AB9F8;
+    border-color: #3AB9F8;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0793D6;
+    border-color: #0793D6;
+}
+.btn-success {
+    color: #fff;
+    background-color: #39CF7A;
+    border-color: #39CF7A;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #228C50;
+    border-color: #228C50;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #FCA958;
+    border-color: #FCA958;
+}
+.btn-warning:hover {
+    color: #fff;
+    background-color: #E67504;
+    border-color: #E67504;
+}
+.btn-info {
+    color: #fff;
+    background-color: #778DFE;
+    border-color: #778DFE;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #133DFD;
+    border-color: #133DFD;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #F93E47;
+    border-color: #F93E47;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #E90713;
+    border-color: #E90713;
+}
+.btn-disabled {
+    color: #fff;
+    background-color: #858f98;
+    border-color: #7c868e;
+}
+.title-ellipsis{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 115px;	
+}
+    

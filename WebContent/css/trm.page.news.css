@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*!
+trm.page.news.css - 页面级的css，例如新闻资讯
+Copyright (c) 2016 Trm
+*/
+
+/*后台新增文章页 start*/
+.form-content .form-group .img-upload-area{
+	    height: 130px;
+}
+.form-content .span-checkbox,
+.form-content .span-radio{
+    margin-top: 5px;
+}
+.form-content table{
+	margin-bottom: 0px;
+}
+
+.form-content .span-checkbox+label,
+.form-content .span-radio+label{
+    margin: 7px 28px;
+}
+
+.form-content .file-area-list img{
+    width: 169px;
+    height: 130px;
+}
+
+.form-content .file-area-list .deletePicButton{
+    top: 51px;
+    left: 10px;
+    line-height: 30px;
+    background-color: #0196d8;
+    opacity: 1;
+    border-radius: 2px;
+}
+select option:first-child{
+	color: inherit;
+}
+/*后台新增文章页 end*/
+
+/*后台文章管理页 start*/
+.content-table .edit-news{
+	margin-right: 10px;
+}
+.mgt-tool-bar .btnRight{
+	float: right;
+    margin-right: 20px;
+}
+/*后台文章管理页 end*/
+
+/*add by chaojiangtao 2016-12-01  */
+.news_title_img span.uploadfile-tips {
+    width: 120px;
+    margin-top: 0;
+}

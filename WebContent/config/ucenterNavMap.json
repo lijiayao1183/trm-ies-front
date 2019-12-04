@@ -1,0 +1,92 @@
+{
+	"/content/personal/ucenter/main.jsp" : {
+		"name" : "首页",
+		"navCode" : "UC0000",
+		"navListName" : "indexNavList"
+	},
+	"/content/personal/ucenter/basicInformation.jsp" : {
+		"name" : "基本信息",
+		"navCode" : "UC0101",
+		"navListName" : "indexNavList"
+	},
+	"/content/personal/ucenter/authentication.jsp" : {
+		"name" : "密码管理",
+		"navCode" : "UC0102",
+		"navListName" : "indexNavList"
+	},
+	"/content/follow/ucenter/srchlist.jsp" : {
+		"name" : "我的关注",
+		"navCode" : "UC0103",
+		"navListName" : "indexNavList"
+	},
+	"/content/comment/ucenter/srchlist.jsp" : {
+		"name" : "我的评论",
+		"navCode" : "UC0104",
+		"navListName" : "indexNavList"
+	},
+	"/content/personal/ucenter/messages.jsp" : {
+		"name" : "我的消息",
+		"navCode" : "UC0105",
+		"navListName" : "indexNavList"
+	},
+	"/content/equipment/ucenter/apply.jsp" : {
+		"name" : "发布设备",
+		"navCode" : "UC0201",
+		"navListName" : "indexNavList"
+	},
+	"/content/equipment/ucenter/srchlist.jsp" : {
+		"name" : "我的设备",
+		"navCode" : "UC0202",
+		"navListName" : "indexNavList"
+	},
+	"/content/demand/ucenter/apply.jsp" : {
+		"name" : "发布需求",
+		"navCode" : "UC0203",
+		"navListName" : "indexNavList"
+	},
+	"/content/demand/ucenter/srchlist.jsp" : {
+		"name" : "我的需求",
+		"navCode" : "UC0204",
+		"navListName" : "indexNavList"
+	},
+	"/content/usermgt/ucenter/apply.jsp" : {
+		"name" : "新增用户",
+		"navCode" : "UC0205",
+		"navListName" : "indexNavList"
+	},
+	"/content/usermgt/ucenter/srchlist.jsp" : {
+		"name" : "我的用户",
+		"navCode" : "UC0206",
+		"navListName" : "indexNavList"
+	},
+	"/content/interaction/ucenter/srchlist.jsp" : {
+		"name" : "互动交流",
+		"navCode" : "UC0207",
+		"navListName" : "indexNavList"
+	},
+	"/content/interaction/ucenter/apply.jsp" : {
+		"name" : "互动交流",
+		"navCode" : "UC0207",
+		"navListName" : "indexNavList"
+	},
+	"/content/quarterly/ucenter/apply.jsp" : {
+		"name" : "在线季报",
+		"navCode" : "UC0208",
+		"navListName" : "indexNavList"
+	},
+	"/content/quarterly/ucenter/srchlist.jsp" : {
+		"name" : "我的季报",
+		"navCode" : "UC0209",
+		"navListName" : "indexNavList"
+	},
+	"/content/laboratory/ucenter/apply.jsp" : {
+		"name" : "发布机构",
+		"navCode" : "UC0210",
+		"navListName" : "indexNavList"
+	},
+	"/content/laboratory/ucenter/srchlist.jsp" : {
+		"name" : "我的机构",
+		"navCode" : "UC0211",
+		"navListName" : "indexNavList"
+	}
+}

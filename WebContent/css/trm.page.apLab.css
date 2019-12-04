@@ -1,0 +1,371 @@
+
+@CHARSET "UTF-8";
+.full-container {
+	position:relative;
+	background-color:#f5f5f5;
+}
+.big-slogan {
+	width:950px;
+	font-size:52px;
+	color:#fff;
+	position:absolute;
+	font-weight:bold;
+	top:110px;
+	left:355px;
+}
+.slogan-span {
+	margin-left:30px;
+}
+.slogan {
+	width:950px;
+	font-size:30px;
+	color:#fff;
+	position:absolute;
+	top:200px;
+	left:355px;
+}
+.detail-wrap {
+	overflow:hidden;
+	min-height:550px;
+	margin-bottom:30px;
+	position:relative;
+}
+.lab-img {
+	width:410px;
+	height:280px;
+	margin-right:80px;
+}
+.lab-name {
+	width:400px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-align:left;
+	font-size:24px;
+	color:#1d5183;
+	font-weight:bold;
+	margin-bottom:35px;
+}
+/* .lab-info ul li {
+	color:#333;
+	height:40px;
+	line-height:40px;
+	width:560px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+} */
+.detail-content {
+	/* text-indent:2em; */
+	line-height:24px;
+	letter-spacing:1px;
+	margin-top:10px;
+	font-size:16px;
+	margin: 30px 24px;
+}
+
+.detail-wrap .slide-pic {
+	float:left;
+	position:relative;
+	padding-bottom:10px;
+	margin-right:110px;
+	margin-left:50px;
+	padding-top:0;
+}
+.detail-wrap .goods-pic {
+    position: relative;
+    padding: 4px;
+    overflow: hidden;
+    width: 375px;	
+}
+.detail-wrap .goods-pic .bigImg {
+	position:relative;
+	height:230px;
+}
+.detail-wrap .goods-pic .bigImg li img {
+	vertical-align:middle;
+	width:375px;
+	height:230px;
+    border: 1px solid #cfcfcf;	
+}
+.detail-wrap .goods-pic .smallScroll {
+	width:100%;
+	overflow:hidden;
+}
+.agency-info .agency-name {
+	width:500px;
+	/* white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; */
+	text-align:left;
+	font-size:24px;
+	color:#1d5183;
+	font-weight:bold;
+	margin-bottom:20px;	
+}
+.agency-info ul li {
+	color:#333;
+	height:38px;
+	line-height:38px;
+	width:500px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.agency-info ul li span {
+	margin-right:5px;
+}
+.agency-info ul li a {
+	color:#0000ff;
+}
+.agency-info ul li a:hover {
+	text-decoration:underline;
+	color:#ed1b25;
+}
+
+
+
+.import-info{
+	background: #fff;
+	padding: 35px 10px 35px 35px;
+}
+.lab-info{
+	width: 900px;
+	margin-top: 10px;
+}
+.unit{
+	line-height: 38px;
+    height: 38px;
+}
+.max-w150 {
+    max-width: 150px;
+    float: left;
+    color: #333;
+    font-weight: bolder;
+}
+.content{
+	width: 100%;
+	margin-right: 20px;
+	min-height: 500px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+
+.recommend {
+    width: 320px;
+    margin: 10px auto;
+}
+.recommend .box-hasline {
+    padding-left: 15px !important;
+    margin-bottom: 0;
+}
+.good-list-item li{
+	padding: 10px 10px 5px 7px
+}
+.good-list-item li img {
+    width: 285px;
+    height: 200px;
+}
+.good-list-item li span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+#goods_content_info ul li.active{
+	/* width: 75px; */
+	color: #419ff6;
+	border-bottom: 2px solid 
+}
+.goods-content-title ul li.active a, .goods-content-title ul li:hover a {
+    color:none;
+    border-bottom: none; 
+}
+.timeBox {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    padding-top: 12px;
+    padding-left: 20px;
+    color: #989696;
+}
+.timeBox img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.detail_top{
+	width:100%;
+	background:#fff;
+}
+.detail_top dl {
+	padding:40px;
+	overflow:hidden;
+}
+.detail_top dl dt{
+	width:418px;
+	height:286px;
+	float:left;
+	display:inline-block;
+	margin-right:40px;
+}
+.detail_top dl dt img{
+	width:100%;
+	height:100%;
+	display:block;
+}
+.detail_top dl dd{
+	font-size: 14px;
+    line-height: 40px;
+    float: left;
+    display: block;
+    width: 654px;
+}
+ #title_name{
+	 font-size:24px;
+	 font-weight:bold;
+	 padding-bottom:6px;
+}
+.detail_bottom{
+	width:100%;
+	margin-top:20px;
+}
+.detail_bottom .detail_contert{
+	width:860px;
+	background:#fff;
+	float:left;
+	min-height:746px;
+	padding:0 24px;
+}
+.detail_contert h2{
+	font-weight:bold;
+	font-size:16px;
+	line-height:60px;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #ddd;
+	color:#419ff6;
+}
+#detail_contert{
+	font-size:14px;
+	line-height:36px;
+	padding-top:40px;
+}
+.detail_contert h2:after{
+	content:"";
+	width:90px;
+	display:block;
+	margin-left:-15px;
+	border-bottom:2px solid #419ff6;
+}
+
+.detail_bottom .detail_relevant{
+	width:320px;
+	background:#fff;
+	float:right;
+	min-height:746px;
+	padding:0 18px;
+}
+
+.detail_relevant h3{ 
+	font-size:18px;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	padding-left:20px;
+	margin:20px 0;
+	border-left:2px solid #419ff6;
+}
+.detail_relevant ul li img{
+	width:178px;
+	height:116px;
+	border:1px solid #efefef;
+	display:block;
+	margin-top:30px;
+}
+.detail_relevant ul li a{
+	font-size:16px;
+	line-height:64px;
+	display:block;
+	border-bottom:1px solid #efefef;
+}
+
+.timeBox {
+	position: absolute;
+    top: 60px;
+    right: 60px;
+    padding-top: 12px;
+    padding-left:20px;
+}
+.timeBox img {
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	margin-top:-2px;
+}
+.btn-focus {
+	position: absolute;
+	top: -2px;
+	right: 120px;
+	padding-top: 12px;
+	padding-left: 20px;
+	font-size: 14px;
+	width: 120px;
+}
+.btn-focus .focus.focus-down {
+	width: 30px;
+	height: 20px;
+	margin: -2px 5px;
+	display: inline-block;
+	padding: 0 5px;
+	text-align: center;
+	cursor: pointer;
+	background-image: url(/images/icons_equips.png);
+	background-repeat: no-repeat;
+	background-position: 10px 0;
+	background-size: 130px;
+	vertical-align: sub;
+}
+.goods-content-title ul li{
+	width: 146px;
+	border-bottom: 2px solid transparent;
+}
+.detail-content>div{
+	display: none;
+}
+.detail-content>div.active{
+	display: block;
+}
+.personTitle{
+	height: 38px;
+	line-height: 38px;
+	font-weight: bolder;
+}
+.import-info .lab-info>div .unit{
+	display: inline-block;
+	width: 24%;
+	vertical-align: bottom;
+}
+.intro{
+	display: table !important;
+	text-indent: initial;
+}
+.intro__left{
+	display: table-cell !important;
+	font-weight: bolder;
+	width: 20%;
+}
+.intro__main{
+	display: table-cell !important;
+	padding-left: 15px !important;
+}
+.intro__main a{
+	text-decoration: underline;	
+}

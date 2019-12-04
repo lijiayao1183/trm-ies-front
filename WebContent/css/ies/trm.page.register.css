@@ -1,0 +1,260 @@
+@CHARSET "UTF-8";
+/* create by yinzheng 2017-10-10 设备共享平台 注册页面 css文件 */
+.ies-regist .form-group {
+	height:auto;
+	overflow:hidden;
+	position:relative;
+}
+.ies-regist .form-group .select-cell {
+	left:414px;
+	top:2px;
+}
+.form-group input.pwd-input {
+	ime-mode: disabled;
+	-ms-ime-mode: disabled;
+	-o-ime-mode: disabled;
+	-moz-ime-mode: disabled;
+	-webkit-ime-mode: disabled;
+}
+.form-group .error-tips-pwd {
+    height: 34px;
+    margin-left: 130px;
+    color: #999;
+    line-height: 34px;	
+}
+.container.content-container {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.form-content {
+	padding:10px 20px;
+	position:relative;
+}
+.login-area {
+	position:absolute;
+	width:160px;
+	height:110px;
+	top:112px;
+	right:137px;
+	z-index:10;
+}
+.promise-area {
+	position:absolute;
+	width:435px;
+	height:55px;
+	text-align:left;
+	bottom: 73px;
+	right: -150px;
+}
+.down-promise-book {
+	display:inline-block;
+	background-color:#419ff6;
+	border:1px solid #419ff6;
+	border-radius:4px;
+	font-size:14px;
+	padding:0 20px;
+}
+.down-promise-book a {
+	color:#fff;
+}
+.promise-tips {
+    display: block;
+    vertical-align: top;
+    /*margin-top: 20px;*/
+    /*margin-left: 15px;	*/
+}
+.login-area p {
+	margin:0;
+}
+.form-content .single-column label.vereist {
+	line-height:48px;
+	font-weight:bold;
+	width:150px;
+}
+.login-btn {
+	/* width:145px; */
+	height:50px;
+	background-color:#04a89d;
+	border:1px solid #04a89d;
+	border-radius:4px;
+	color:#fff;
+	font-size:18px;
+	padding:12px 60px;
+	margin-top:15px;
+	cursor:pointer;
+}
+.protocol {
+	padding-left:150px;
+}
+.protocol a {
+	display:inline-block;
+	color:#419ff6;
+	margin-left:-8px;
+}
+.protocol a:hover {
+	text-decoration:underline;
+}
+.goods-form-button {
+	text-align:left;
+	padding-left:150px;
+	margin-top:28px;
+}
+#register_now,
+#offer_register_now {
+	width:450px;
+	height:55px;
+	background-color:#419ff6;
+	color:#fff;
+	border:1px solid #419ff6;
+	font-size:16px;
+	border-radius:4px;
+}
+.comment {
+	width:95%;
+	padding:20px 25px;
+	color:#9b9b9b;
+	border:1px dashed #9b9b9b;
+	margin-bottom:30px;
+	margin-left:30px;
+	margin-right:30px;
+}
+.comment .marks {
+	text-indent:1.5rem;
+	margin:0;
+}
+.tab-ul {
+	width:1200px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-30px;
+}
+.tab-ul .tab-span {
+	display:inline-block;
+	width:210px;
+	height:60px;
+	background-color:#fff;
+	line-height:60px;
+	font-size:16px;
+	text-align:center;
+	cursor:pointer;
+	font-weight:bold;
+}
+.tab-ul .tab-span[text='offer'] {
+	margin-left:-5px;
+}
+.tab-ul .tab-span.active {
+	background-color:#ed1b24;
+	color:#fff;
+}
+.display-none {
+	display:none;
+}
+.error-pwd {
+	color:#ff7b20;
+	font-size:12px;
+}
+/* 注册页footer 样式 start */
+.foot-text ul {
+	margin:0;
+	padding:0;
+}
+.foot-text ul li {
+	display:inline-block;
+	float:left;
+	width:90px;
+	font-size:14px;
+	line-height:14px;
+	border-right:1px solid #000;
+	font-weight:bold;
+}
+.foot-text ul li:last-child {
+	border:none;
+}
+.foot-text p {
+	font-size:14px;
+	margin:15px 0;
+}
+/* 用户协议页面样式 start */
+.protocol-title {
+	height:76px;
+	line-height:76px;
+	font-size:18px;
+	color:#666;
+	border-bottom:1px solid #d1d1d1;
+	margin-bottom:40px;
+}
+.protocol-wrap {
+	padding:0 35px 60px 35px;
+}
+.protocol-content {
+	padding:0 10px;
+}
+.protocol-content p {
+	line-height:24px;
+	letter-spacing:1px;
+}
+.protocol-content .title {
+	font-size:16px;
+	font-weight:bold;
+	color:#6a6a6a;
+}
+.equ-line{
+	border-top: 1px dashed #ccc;
+}
+.equ-line:nth-of-type(1){
+	border-top: none;
+}
+.en-title {
+	font-size: 20px;
+	color: #333;
+	padding-left: 15px;
+	border-left: 2px solid #03a99d;
+	line-height: 32px;
+	height: 36px;
+	margin: 20px 0;
+	position: relative;
+}
+/*.en-title:after{*/
+	/*content: ''; !*CSS伪类用法*!*/
+	/*position: absolute; !*定位背景横线的位置*!*/
+	/*top: 52%;*/
+	/*background: #494949; !*宽和高做出来的背景横线*!*/
+	/*width: 90%;*/
+	/*height: 2px;*/
+/*}*/
+.ies-regist .form-group{
+	display: inline-block;
+}
+.ies-regist .form-group:nth-of-type(1),.ies-regist .form-group:nth-of-type(2),.ies-regist .form-group:nth-of-type(3),.ies-regist .form-group:nth-of-type(18){
+	display: block;
+}
+.form-group textarea{
+	height: 88px;
+	width: 938px;
+}
+.ies-regist .form-group:nth-of-type(7),.ies-regist .form-group:nth-of-type(9),.ies-regist .form-group:nth-of-type(11),.ies-regist .form-group:nth-of-type(20),.ies-regist .form-group:nth-of-type(22),.ies-regist .form-group:nth-of-type(24){
+	left: 163px;
+}
+.ies-regist .form-group:nth-of-type(15) .single-column{
+	width: 400px !important;
+}
+.ies-regist .form-group:nth-of-type(16) .single-column{
+	width: 700px !important;
+}
+.hightErrorTip{
+	position: relative;
+	left: -75px;
+	width: 427px !important;
+}
+.form-control{
+	height: 40px;
+	line-height: 40px;
+}
+.goods-form-button{
+	margin-bottom: 20px;
+}
+.form-group .error-tips{
+	margin-left: 147px;
+}

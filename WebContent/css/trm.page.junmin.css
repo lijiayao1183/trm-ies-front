@@ -1,0 +1,1096 @@
+@charset "UTF-8";
+/*!
+trm.page.junmin.css - 页面级的css，例如军民融合
+Copyright (c) 2016 Trm
+*/ 
+    
+/* 军工集团详情页面  start*/
+.jungongGroup{
+	background: #fff;
+	overflow: hidden;
+	margin-top: 30px;
+	padding: 20px;
+}
+.groupName{
+	margin: 29px 0 40px 0;
+	font-size: 30px;
+	color: #000;
+	line-height: 60px;
+	letter-spacing: 8px;
+}
+.groupName img{
+	width: 60px;
+	height: 60px;
+	margin-right: 30px;
+	display: inline-block;
+}
+.groupAbout{
+	margin-bottom: 62px;
+	overflow:hidden;
+}
+.groupAbout .group-item {
+	width: 540px;
+	height: 360px;
+	margin-right: 30px;
+	display: inline-block;
+}
+.groupAbout img{
+	width:540px;
+	height:360px;
+	vertical-align: top;
+}
+.groupAbout dl dd{
+	width: 590px;
+	font-size: 20px;
+	color: #2D85EE;
+	line-height: 20px;
+	padding-top: 15px;
+}
+.groupAbout dl dd i{
+	color: #C9C9C9;
+	/* display: inline-block;  by yinzheng*/
+	margin: 0 8px;
+}
+.groupAbout dl dd b{
+	color: #000;
+	/* display: inline-block;  by yinzheng*/
+	font-weight: normal;
+}
+.groupAbout dl dt{
+	width: 590px;
+	height: 330px;
+	line-height: 30px;
+	padding: 36px 0 20px 0;
+	font-weight: normal;
+	text-indent: 2em;
+	overflow: hidden;
+}
+.groupWarp{
+	margin-top: 30px;
+}
+.groupWarp .box-hasline{     /* 用icon替换 by yinzheng */
+	padding: 10px 0 !important;
+}
+.groupPart{
+	width:595px;
+	height: 314px;
+	background: #fff;
+	padding: 10px;
+}
+.groupPart p.title{
+	height: 20px;
+	border-bottom: 1px #FF3D44 solid;
+	line-height: 20px;
+	font-size: 12px;
+}
+.groupPart p.red{
+	border-bottom: 1px #FF3D44 solid;
+}
+.groupPart p.yellow{
+	border-bottom: 1px #F69800 solid;
+}
+.groupPart p.blue{
+	border-bottom: 1px #2D85EE solid;
+}
+.title dt.red{
+    border-left: 3px solid #FF3D44;
+}
+.title dt.yellow{
+    border-left: 3px solid #F69800;
+}
+.groupPart p.title b{
+	display: inline-block;
+	width:66px;
+	height: 20px;
+	color: #fff;
+	/* font-weight: normal; by yinzheng*/
+}
+.groupPart p.title b.red{
+	background-color: #FF3D44;
+}
+.groupPart p.title b.yellow{
+	background-color: #F69800;
+}
+.groupPart p.title b.blue{
+	background-color: #2D85EE;
+}
+.groupPart p.title span i{
+	margin-left: 5px;
+	vertical-align: top;
+}
+.groupPart ul{
+	width:575px;
+	height: 294px;
+}
+.groupPart ul li{
+	width:575px;
+	height: 42px;
+	border-bottom: 1px #F5F5F5 dashed;
+	font-size: 12px;
+	line-height: 42px;
+}
+.groupPart ul li span{
+	width:227px;
+	height: 42px;
+	overflow: hidden;
+	cursor: pointer;
+	font-weight: bold;
+}
+.groupPart ul li b{
+	color: #808080;
+	font-weight: normal;
+}
+.marBottom{
+	margin-bottom: 30px;
+}
+/* 军工集团详情页面   end*/
+/* 军工集团后端列表  start*/
+.mgtLogo{
+	width: 60px;
+	height: 60px;
+}
+.white{
+	color: #fff;
+}
+.blue{
+	color: #2D85EE;
+}
+.mgtJgTitle,.mgtsrch{
+	/* background-color: #EDF0F5;  delete by yinzheng*/
+	margin-top: 10px;
+}
+.jungongAddBtn{
+	height: 30px;
+	background-color: #6990FF;
+	color: #fff;
+	line-height: 30px;
+	border-radius: 3px;
+	padding: 0 5px;
+	margin: 5px 10px 5px 0;
+	cursor: pointer;
+}
+.mgtJgTitle dt{
+	margin: 10px 0;
+	border-left: 5px #6990FF solid;
+	padding-left: 10px;
+}
+.jungong{
+	padding: 50px 0;
+}
+.form-group>div>label{
+    width: 145px;
+}
+.form-group>div {
+    width: auto;
+    overflow:hidden;     /*sunfang add 2016/11/15  */
+}
+.jungong .form-group{
+    height:auto;     /*wangxun add 2016/11/15  */
+}
+.form-group .img-upload-area {
+    height: auto;
+    overflow:hidden;
+    display:inline;       /* sunfang modify 2016/11/15 */
+    margin-right:10px;
+}
+.ifProject .file-area-list li {
+    margin-right: -95px;
+}
+.jungong .jungongImg-list li{
+	width: 540px;
+	height: 360px;
+	background-position: center;
+}
+.jungong .jungongImg-list .deletePicButton{
+	width: 540px;
+    line-height: 360px;
+    left: 0px;
+    top: -360px;
+}
+.jungongImg-list .deletePicButton {
+    left: 0;
+    top:-360px;
+    width: 540px;
+    line-height: 360px;
+}
+.jungongImg-list li {
+    margin-right: 10px !important;
+}
+.jungong .jungongImg-list img{
+	width: 540px;
+	height: 360px;
+}
+.mgtsrch input{
+	height: 30px;
+	margin: 0 10px;
+}
+.mgtsrch{
+	padding: 20px;
+}
+.mgtsrch dd{
+	margin: 0;
+}
+.form-group label.error {
+    text-align: left;
+    width: auto;
+}
+.citigroupLogo img{
+	width:40px;
+	height:40px;
+	margin-right:10px;
+}
+/* 军工集团后端列表   end*/
+/* 国防知识产权咨询 前端页 start */
+.content {
+	margin: 25px auto;
+}
+.consult-leftNav {
+	width: 180px;
+}
+.consult-leftNav .content-box,
+.content-wrap .content-box {
+	min-height: 640px;
+}
+.content-wrap {
+	width: 1000px;
+}
+.title-sign {
+	width: 160px;
+	height: 30px;
+	background-color: #2d85ee;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.consult-sort ul li a {
+	font-size: 12px;
+	font-weight: bold;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 150px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.consult-sort ul li i {
+	position: absolute;
+	top: 17px;
+	left:0;
+}
+.consult-sort-list li {
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px #f5f5f5 dashed;
+	text-align: center;
+	position: relative;
+}
+.consult-content {
+	padding: 24px 36px 0 36px;
+	min-height: 500px;
+}
+.scan-count {
+	display: inline-block;
+	width: 57px;
+	text-align: right;
+}
+.consult-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    overflow: hidden;/*add chaojiangtao 标题只能一行，多余隐藏*/
+    height: 20px;
+    word-break: break-all;
+}
+.satellite-info {
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 40px;
+}
+.satellite-info span:first-child {
+	margin-right: 46px;
+}
+.satellite-info span {
+	margin-right: 10px;
+}
+.satellite-info i {
+	top: 2px;
+}
+.consult-detail p { /* 暂时样式 by yinzheng */
+	line-height: 1.8em;
+	color: #666;
+	text-indent: 2em;
+	font-size: 12px;
+}
+/* 国防知识产权咨询 前端页 end */
+/* 国防知识产权咨询 后端列表页 start */
+.mgt-consultTitle > input {
+	width: 523px;
+}
+.form-group.mgt-consultContent {
+	height:500px;		/* modify by yinzheng */
+}
+.form-group.mgt-consultContent .single-column > label {
+	line-height: 460px;
+}
+.form-group.mgt-consultContent .single-column .edit-wrap {
+	width: 820px;   /*sunfang modify 20161115  */
+}
+.jm-mgt-title {
+	height: 46px;
+	background-color: #fafafa;
+	margin-bottom: 17px;
+}
+.jm-mgt-title .list-name {
+	line-height: 46px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.jm-mgt-title .btn {
+	margin-top: 8px;
+    margin-right: 10px;
+    padding: 2px 5px 7px 5px ! important;
+}
+.content-table .operate .delete-area {
+	margin-left: 27px;
+}
+.consult-errorMsg {
+	margin-left: 130px;
+}
+.goods-form-button.commit-consult {
+	width: 100%;
+}
+/* 国防知识产权咨询 后端列表页 end */
+/* 国防知识产权咨询 后端新增页 start */
+.consult-errorMsg {
+	position: relative;
+    top: -52px;
+    left: 663px;
+    width: 400px;    
+}
+.consult-errorMsg .error {
+	width: auto;
+	margin-left: 15px;
+}
+.edit-area,
+.delete-area {
+	cursor: pointer;
+}
+/* 国防知识产权咨询 后端新增页 end */
+/* 专家解读前端 by chaojiangtao start */
+.doubleMargin{
+	margin: 0 20px;
+}
+.topMargin{
+	margin-top: 40px;
+	min-height: 110px;
+}
+.e_top{
+	vertical-align: top;
+}
+.blockstyle-list{
+	padding: 7px 10px;
+}
+.blockstyle-list h2{
+	padding: 0 10px;
+	background-color: #D7E7FC;
+	font-size: 16px;
+	line-height: 34px;
+	color: #2D85EE;
+	margin: 0;
+	font-weight: bold;
+}
+.blockstyle-list li{
+	padding: 20px 20px 13px 16px;
+	border-radius: 0 15px 15px 15px;
+	background-color: #F5F5F5;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.blockstyle-list li span{
+	display: block;
+	font-size: 12px;
+	color: #A0A0A0;
+}
+.blockstyle-list li span.title,
+.blockstyle-list li span.d-title{
+	color: #333;
+	line-height: 14px;
+	/*font-weight: bold;*/
+	overflow: hidden;
+    display: inline;
+    word-break: break-all;/*add chaojiangtao 防止不换行*/
+}
+.blockstyle-list li span.title:hover{
+	color: #2d85ee;
+    text-decoration: underline;
+	cursor: pointer;
+}
+.blockstyle-list li span.title i,
+.blockstyle-list li span.d-title i{
+	display:inline-block;
+	background:#888;
+	width:5px;
+	height:5px;
+	margin-right:8px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.blockstyle-list li span.download_time i,
+.blockstyle-list li span.text-right i,
+.blockstyle-list li span.time i{
+	vertical-align: bottom;
+	margin-right:3px;
+}
+.blockstyle-list li span.keywords{
+	margin: 10px 0 10px 8px;
+}
+.blockstyle-list li span.auther{
+	padding-left:10px;
+}
+.arts-detail .totle-num {
+    margin-left: 20px;
+}
+/* 专家解读前端 end */
+/* 投融资项目前端列表样式 start */
+.sxcon .active {
+    background: #2d85ee;
+    color: #fff;
+}
+.good-list-item li .price .num,
+.good-list-item li dd .num {
+    color: #2d85ee;
+}
+.good-list-item li .name a {
+    color: #000;
+}
+.good-list-item li .name a:hover{
+	color: #2d85ee;
+	text-decoration:underline;
+}
+.good-list-item .contactor {
+	line-height: 22px;
+}
+.list-show .intro-left {
+    width: 431px;
+    margin-right: 110px;
+}
+/* 投融资项目前端列表样式 end */
+/* 投融资项目前端详情页样式 start by yinzheng */
+.jm-ifProject .goods-detail-pannel {
+    float: left;
+    margin-left: 15px;
+    width: 880px;
+    padding-top: 5px;
+}
+.jm-ifProject .goods-detail .company-info {
+	margin-bottom: 18px;
+}
+.jm-ifProject .goods-detail .company-info img {
+	width: 33px;
+    height: 33px;
+    margin-left: 15px;
+}
+.jm-ifProject .goods-detail .company-info .jm-name {
+	color: #222;
+    vertical-align: top;
+    line-height: 33px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.jm-ifProject .goods-detail ul {
+    height: 140px;
+    width: 480px;
+    margin-left: 15px;
+}
+.jm-ifProject .goods-detail.double-column li {
+	float: left;
+    width: 240px;
+    height: 40px;
+}
+.jm-ifProject .bdsharebuttonbox {
+	float: right;
+    width: 60px;
+    height: 17px;
+    position: relative;
+    left: 0; 
+}
+.jm-ifProject .collect-share-btn {
+	margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.contact-info {
+    /*margin: 13px 35px;*/
+    margin: 13px 15px; /*modify 20170105 by liujie*/
+    font-weight: normal;	
+}
+.contact-info .contactor {
+	color : #2d85ee;
+}
+.goods-content-title ul li.active a,
+.goods-content-title ul li:hover a {
+    color: #2d85ee;
+    border-bottom: 2px solid;
+}
+.jm-project-content {
+	min-height: 646px; /*modify by renlina 2016-11-11*/
+}
+/* 投融资项目前端详情页样式 end by yinzheng */
+/* 投融资项目后台新增页面样式 start by yinzheng */
+.ifProject .file-area-list .owner-img {
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #CFCFCF;
+    background: url(../images/service/ucenter/defuploadimg.png) no-repeat center;
+}
+.ifProject .form-group .error-tips .error {
+	width: auto;
+} 
+.ifProject .file-area-list img {
+    width: 100px;
+    height: 60px;
+}
+.ifProject .file-area-list .deletePicButton {
+    position: relative;
+    left: -100px;
+    top: 1px;
+    display: inline-block;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+/* 投融资项目后台新增页面样式 end by yinzheng */
+/* 军民-专利技术前端列表样式 by chaojiangtao  start */
+.list-style:hover, .list-style.active {
+    background: url(/images/junmin.png);
+    background-position: -494px -36px;
+}
+.table-style:hover, .table-style.active {
+	background: url(/images/junmin.png);
+    background-position: -445px -36px;
+}
+.list-show li .btn-shop {
+    color: #2d85ee;
+}
+.jm-shop-blue-icon{
+	 vertical-align: top;
+	 margin-right:10px;
+}
+.btn-shop:hover i.jm-shop-blue-icon {
+	background-position: -328px -31px;
+}
+.goods-content-title ul li.active a, .goods-content-title ul li:hover a {
+    color: #2d85ee;
+    border-bottom: 2px solid;
+}
+.list-show li .item {
+    width: 140px;
+}
+.list-show li .item i.jm-light-icon{
+    margin:0 60px;
+}
+.type i.jm-menu-icon{
+	vertical-align: middle;
+}
+.proType-signboard {
+    background-color: #2d85ee;
+}
+.top-pagenation .num {
+    color: #2d85ee;
+}
+.list-show li .item i.jm-search-icon {
+    margin: 0 56px;
+}
+.list-show li i.shop-icon-jm{
+	vertical-align: middle;
+	background: url(../images/junmin.png) -348px -36px no-repeat;
+}
+.list-show li a.btn-shop:hover i.shop-icon-jm{
+	background: url(../images/junmin.png) -325px -36px no-repeat;
+}
+/* 军民-专利技术前端列表样式 end */
+/* 资料下载前端列表样式 by chaojiangtao start */
+.download_list{
+	padding: 7px 10px;
+}
+
+.download_list li a.download_btn{
+	padding: 3px 10px 2px 8px;
+	display: inline-block;
+}
+.download_list li a.download_btn i{
+	vertical-align: text-top;
+}
+
+.download_list li:hover a.download_btn{
+	background:#2d85ee;
+	color:#fff;
+	border-radius: 3px;
+}
+.download_list li:hover a.download_btn i.cloud-icon{
+	background-position: -114px -38px;
+}
+.download_time{
+	margin-top:38px;
+}
+/*资料下载前端列表样式 end */
+/* 政策法规详情页 start by yinzheng */
+.arts-detail.policy-detail .totle-num {
+	margin-left: 44px;
+}
+.policylaw_list ul li{
+	margin-top:0;
+	margin-bottom:30px;
+}
+.demand-detail-content .demand-property {
+    margin-top: 20px;
+}
+/*.detail a.btn-collect i{
+	vertical-align: middle;
+}   modify by renlina*/ 
+.detail a i.collected-large-jm{
+	vertical-align: middle;
+}
+.goods-detail .bargaining-btn-area i {
+    background: url(/images/junmin.png);
+}
+.goods-detail .bargaining-btn-area a:first-child i {
+    background-position: -5px -67px;
+}
+.goods-detail .bargaining-btn-area a:last-child i {
+    background-position: -54px -67px;
+}
+.list-show li .goods-price .num {
+    font-size: 14px;
+}
+/* 政策法规详情页 end */
+/* 文件上传 by chaojiangtao start*/
+.file_icon{
+	width:106px;
+	height:106px;
+	display:inline-block;
+	vertical-align: top;
+	padding:39px;
+}
+.add-download-file .file-area-list li{
+	margin-right: -105px;
+}
+.add-download-file .file-area-list .owner-img{
+	width:106px;
+	height:106px;
+	margin-right: 0px;
+}
+.add-download-file .file-area-list .deletePicButton{
+	width:106px;
+	height:106px;
+	left: -105px !important;
+	top:0px;
+}
+/* 文件上传 by chaojiangtao end */
+/* 军民融合后端重构 by chaojiangtao start*/
+.ibox {
+    margin: 0; 
+    border: 0;
+}
+.ibox .title {
+    overflow:hidden;
+    padding: 10px 0;
+    font-size: 14px; 
+    line-height: 32px;
+}
+.ibox .title label{ 
+    line-height: 32px;
+    padding: 0 10px;
+}
+.ibox .title input,select{ 
+    height: 32px;
+}
+.title .btn {
+    margin: 0 0 0 10px;
+    height: 32px;
+}
+.list-show .bdsharebuttonbox a{
+    background: URL(/images/junmin/jm-bdshare-icon.png) no-repeat 12% center;
+}
+.bdsharebuttonbox a:hover {
+    color: #2d85ee !important;
+}
+/* 军民融合后端重构 by chaojiangtao end*/
+/* 军民融合二级页面 by chaojiangtao start*/
+.left_nav{
+	width:260px;
+	min-height:400px;
+	overflow: hidden;
+	margin:30px 0 20px 0;
+	background:#2c54a1 url(../images/junmin/jungong.png) no-repeat;
+	background-position: -10px -920px;
+	padding:130px 0;
+}
+.left_nav li{
+	height:54px;
+	line-height:54px;
+	color:#fff;
+	padding:0 15px;
+}
+.left_nav li.active{
+	background-color:#274689;
+}
+.left_nav li:hover{
+	background-color:#274689;
+}
+.left_nav li a{
+	color:#fff;
+}
+.detail_right{
+	width:940px;
+	min-height:600px;
+	overflow: hidden;
+	margin:30px 0 20px 0;
+	background-color:#fff;
+	padding:0 40px 40px 40px;
+}
+.detail_right h1{
+	text-align: center;
+	margin:52px 0 50px 0;
+	color:#031632;
+	font-size: 18px;
+	font-weight: bold;
+}
+.detail_right span.content1{
+	line-height:30px;
+	color:#636363;
+	display: block;
+}
+.detail_right b{
+	line-height:30px;
+	color:#636363;
+	display: block;
+	padding-top:10px;
+}
+.in_detail{
+	min-height:600px;
+	overflow: hidden;
+	padding:0 80px 80px 80px;
+}
+.in_detail a{
+	width:100%;
+	line-height:30px;
+	display:block;
+	padding:20px 0;
+	text-align:right;
+	color:#2d85ee;
+}
+.in_detail h1{
+	text-align: center;
+	margin:52px 0 30px 0;
+	color:#031632;
+	font-size: 18px;
+	font-weight: bold;
+}
+.in_detail h2{
+	text-align: center;
+	padding:20px 0 14px 0;
+	color:#031632;
+	font-size: 16px;
+	font-weight: bold;
+}
+.in_detail span{
+	line-height:30px;
+	color:#636363;
+	display: block;
+	padding:0 80px 50px 80px;
+	text-align: center;
+}
+.in_detail dl{
+	width:495px;
+	border:1px #dedede solid;
+	display: block;
+}
+.in_detail dl dd{
+	color:#031632;
+	display: block;
+	padding:10px 20px;
+	font-weight: bold; 
+}
+.in_detail dl b{
+	font-size:12px;
+	line-height:24px;
+	color:#636363;
+	padding:0 20px;
+	display: block;
+	font-weight: normal; 
+}
+.in_detail dl dt{
+	font-size:12px;
+	line-height:24px;
+	color:#636363;
+	display: block;
+	padding:0 20px;
+	font-weight: normal; 
+}
+.in_detail dl i{
+	width:495px;
+	height:150px;
+	background:url(../images/junmin/jungong.png) no-repeat;
+	display: block;
+}
+.in_detail dl i.wq_1{
+	background-position:-32px -576px;
+}
+.in_detail dl i.wq_2{
+	background-position:-32px -754px;
+}
+.butler_service{
+	width:210px;
+	height:90px;
+	border:1px #dedede solid;
+	float:left;
+	margin: 15px 10px;
+}
+.butler_service i{
+	width:40px;
+	height:40px;
+	background:url(../images/junmin/jungong.png) no-repeat;
+	display:block;
+	margin:10px 85px 5px 85px;
+}
+.butler_service b{
+	font-size:12px;
+	line-height:24px;
+	color:#636363;
+	display: block;
+	padding:0 10px;
+	font-weight: normal;
+	text-align:center; 
+}
+.butler_service i.serv_1{
+	background-position:-30px -150px;
+}
+.butler_service i.serv_2{
+	background-position:-100px -150px;
+}
+.butler_service i.serv_3{
+	background-position:-170px -150px;
+}
+.butler_service i.serv_4{
+	background-position:-240px -150px;
+}
+.butler_service i.serv_5{
+	background-position:-310px -150px;
+}
+.butler_service i.serv_6{
+	background-position:-380px -150px;
+}
+.butler_service i.serv_7{
+	background-position:-450px -150px;
+}
+.butler_service i.serv_8{
+	background-position:-520px -150px;
+}
+.butler_service i.serv_9{
+	background-position:-590px -150px;
+}
+.b_step{
+	width:798px;
+	height:350px;
+	margin:0 auto;
+	border:1px #dedede solid;
+}
+.b_step i{
+	width:798px;
+	height:120px;
+	background:url(../images/junmin/jungong.png) 30px -10px no-repeat;
+	display:block;
+}
+.b_step span{
+	width:150px;
+	font-size:12px;
+	line-height:24px;
+	color:#636363;
+	display: inline-block;
+	padding:0 10px;
+	vertical-align: top;
+	margin-left: 40px;
+}
+/* 军民融合二级页面 by chaojiangtao end*/
+
+ /*add by chaojiangtao 2016-12-01  */
+ 
+ .file-area-list .owner-img {
+    width: 170px;
+    height:90px;
+    background-position: center;
+}
+.file-area-list .deletePicButton {
+    left: -170px;
+    width: 170px;
+    line-height:90px;
+    top:2px;
+}
+.file-area-list img {
+    width: 170px;
+    height:90px;
+}
+.file-area-list li {
+    margin-right: -160px;
+}
+
+/*解密国防专利 start*/
+.DDPatent-left-nav{
+    background: #2c54a1 url(/images/icon_gfzl.png) no-repeat;
+    background-position: -238px -10px;
+    padding: 100px 0;
+}
+.DDPatent-left-nav>div{
+    position: relative;
+    top: -65px;
+    color: #FFF;
+    margin-bottom: -40px;
+}
+.DDPatent-left-nav li{
+	cursor: pointer;
+	height: 40px;
+    line-height: 40px;
+}
+.DDPatent-form-content .form-group>div:first-child{
+	width: 395px;
+}
+.DDPatent-form-content .form-group>div:first-child>label{
+	width: 85px;
+}
+.DDPatent-form-content form{
+	background-color:#f6f6f6;
+	padding: 20px 10px;
+}
+.DDPatent-form-content .form-group{
+	height: 65px;
+}
+.DDPatent-form-content .form-group>div{
+	width: 415px;
+}
+.DDPatent-form-content .form-group>div>label{
+    width: 105px;
+}
+.DDPatent-form-content .form-group input[type=text],
+.DDPatent-form-content .form-group select{
+    width: 305px;
+}
+.DDPatent-list ul{
+    overflow: hidden;
+    font-size: 12px;
+    padding: 10px;
+}
+.DDPatent-list ul li{
+    float: left;
+    width: 407px;
+    line-height: 25px;
+    border-bottom: 1px dotted #EBEBEB;
+}
+.DDPatent-list ul li.mright{
+    margin-right: 65px;
+}
+.DDPatent-list ul i{
+    float: right;
+    font-style: normal;
+    color: #999;
+}
+.DDPatent-list ul a{
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: 280px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.DDPatent-list ul li .dote{
+    width: 4px;
+    height: 4px;
+    margin-top: 11px;
+    margin-right: 5px;
+    float: left;
+    background: #999;
+    border-radius: 5px;
+}
+.detail_right .title .time{
+	color: #999;
+}
+.DDPatent-pdf{
+    width: 100px;
+    text-align: left;
+    float: right;
+    position: relative;
+    top: -50px;				/* modify by yinzheng 0214 需求变更*/
+    cursor: pointer;
+    color: #345F94;
+    font-size: 12px;
+}
+.DDPatent-intro{
+	overflow: hidden;
+    margin: 46px 0px;
+    line-height: 22px;
+}
+.DDPatent-intro .intro{
+    width: 650px;
+    font-size: 12px;
+    text-indent: 25px;
+}
+.DDPatent-intro img{
+    max-width: 200px;
+}
+.form-content-approve table td.w440{
+	width: 440px;
+	color: #222;
+    font-size: 12px;
+	text-align: left;
+	padding: 9px 30px;
+    line-height: 22px;
+}
+.form-content-approve table td.w440 span{
+	display: inline;
+	color: #555;
+}
+.no-goods12-img{
+    height: 90px;
+    width: 180px;
+    display: inline-block;
+    background: url(/images/icon_gfzl.png) 0 0 no-repeat;
+    background-position: -49px -10px;
+}
+.pdf-icon-blue{
+    width: 17px;
+    height: 19px;
+    top: 5px;
+    right: 4px;
+    display: inline-block;
+    position: relative;
+    background: url(/images/icon_gfzl.png) 0 0 no-repeat;
+    background-position: -10px -10px;
+}
+.clock-icon{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    right: 2px;
+    background: url(/images/icon_gfzl.png) 0 0 no-repeat;
+    background-position: -37px -13px;
+}
+.patentTotal {
+	display: inline-block;    /* 解密国防专利页面增加专利总数 */
+    vertical-align: top;	/* add by yinzheng 17-03-17 */
+    margin-top: 43px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #999;
+}
+/*解密国防专利 end*/

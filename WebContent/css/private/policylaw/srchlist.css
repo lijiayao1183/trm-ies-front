@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+.content-box{
+	padding: 0
+}
+.form-content{
+	padding: 10px 20px;
+}
+.policylaw_list ul li{
+	width: 870px;
+    height: 130px;
+}
+.policylaw-body{
+	width: 910px;
+}
+.blockstyle-list li{
+	background-color: white;
+	border: 2px solid #F5F5F5;
+}
+.blockstyle-list li:hover{
+	background-color: #F5F5F5;
+}
+.blockstyle-list li span{
+	margin-left: 15px;
+}
+.breadcrumb > .active{
+	color: #2d85ee;
+}
+.blockstyle-list li span.title{
+	font-size: 14px;
+}
+.form-content, .msg-content{
+	padding: 0px;
+}
+.content-box{
+	padding: 5px;
+}
+b, strong{
+	font-weight: normal;
+}

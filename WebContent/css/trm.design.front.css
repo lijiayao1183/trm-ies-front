@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*!
+trm.design.front.css - 页面级的css，例如
+Copyright (c) 2016 Trm
+*/
+/*header start*/
+.headerbg{
+	height: 90px;
+	background: #fff  !important;
+}
+.headerbg>.container{
+	padding: 0;
+}
+.headerbg .header .kp-logo{
+	height: 44px;
+	width: 240px;
+	float: left;
+	margin-top: 18px;
+	background: url(../images/kunpeng-logo.png) 0 0 no-repeat;     /* new-logo*/
+}
+.headerbg .header .navbar-nav{
+	margin: 30px -6px 0 20px !important;
+}
+.headerbg .header .header-nav ul li{
+	float: left;
+	margin-right: 15px;
+}
+.headerbg .header .header-nav ul li a{
+	font-size: 18px;
+}
+.headerbg .header .header-nav ul li a.active{
+	color:#419ff6;
+}
+
+
+.navbar-right {
+    float: right !important;
+    margin-right: 0px;
+	margin-top: 4px;
+}
+.navbar-right .btn-bar{
+	float: left;
+	margin: 15px 8px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+.navbar-right .btn-bar-div{
+	margin: 10px;
+}
+.navbar-right .btn-bar span{
+	display: block;
+}
+.navbar-right .btn-bar i{
+	margin: 5px;
+	display: inline-block;
+    vertical-align: middle;
+}
+.navbar-right .btn-bar .pc-img{
+	width: 60px;
+	height: 60px;
+	-moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%;/* Safari 和 Chrome */
+    border-radius: 50%; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	/*behavior: url(../css/component/ie-css3.htc);*/
+}
+.navbar-right .btn-bar .personal-center{
+	position: absolute;
+	top: 65px;
+	left: 50%;
+	margin-left: -94px;
+    z-index: 9999;
+	width: 200px;
+	display:none;
+    padding-top: 15px;
+    margin-top: -10px;
+}
+.navbar-right .btn-bar .personal-center .pc-header{
+	position: relative;
+	background: #D5E4F6;
+	height: 60px;
+	width: 200px;
+	padding: 12px 0 0 14px;
+    border: 1px solid #E6E6E6;
+    border-bottom: none;
+}
+.navbar-right .btn-bar .personal-center .pc-header .triangle-icon-1,
+.navbar-right .btn-bar .personal-center .pc-header .triangle-icon-2{
+	display: block;
+	position: absolute;
+	height: 14px;
+	width: 15px;
+	left: 50%;
+	margin-left: -6px;
+	background: url(../images/KPhome/home-icon.png) no-repeat;
+}
+.navbar-right .btn-bar .personal-center .pc-header .triangle-icon-1{
+	top: -12px;
+	background-position: -358px -97px;
+}
+.navbar-right .btn-bar .personal-center .pc-header .triangle-icon-2{
+	top: -13px;
+	background-position: -376px -96px;
+}
+.navbar-right .btn-bar .personal-center .pc-header .pc-img-span{
+	display: block;
+	float: left;
+	height: 42px;
+	width: 42px;
+	border-radius: 50%;
+}
+.navbar-right .btn-bar .personal-center .pc-header .pc-name-span{
+	float: left;
+	margin-left: 10px;
+}
+.navbar-right .btn-bar .personal-center .pc-header .pc-name{
+	font-size: 12px;
+	margin-bottom: 6px;
+    display: block
+}
+.navbar-right .btn-bar .personal-center .pc-header .signature{
+	font-size: 12px;
+	color: #6881A5;
+    display: block
+}
+.navbar-right .btn-bar .personal-center .pc-content{
+	background: #fff;
+	height: 110px;
+	width: 200px;
+	padding: 5px 3px 0 1px;
+    border: 1px solid #E6E6E6;
+    border-bottom: none;
+}
+.navbar-right .btn-bar .personal-center .pc-content ul{
+	height: 28px;
+	padding: 0 2px;
+	border-bottom:1px solid #E6E6E6;
+	
+}
+.navbar-right .btn-bar .personal-center .pc-content ul li{
+	height: 22px;
+	float: left;
+	line-height: 22px;
+    border-right: 1px solid #E6E6E6;
+    padding-right: 5px;
+}
+.navbar-right .btn-bar .personal-center .exit{
+	display: block;
+	float: right;
+}
+.navbar-right .btn-bar .personal-center .pc-content ul li a{
+	font-size: 12px;
+	margin-left: -2px;
+}
+.navbar-right .btn-bar .personal-center .pc-content ul .no-border{
+    border-right: none;
+    padding-left: 3px;
+}
+ul li a:hover i.personal-center-icon{
+	background-position: -218px -93px;
+}
+ul li a:hover i.identity-icon{
+	background-position: -296px -93px;
+}
+ul li a:hover i.information-icon{
+	background-position: -257px -93px;
+}
+ul li a:hover i.collect-home-icon{
+	background-position: -336px -93px;
+}
+.header-btn {
+	width:48px;
+	height:48px;
+	display:inline-block;
+	margin-right:15px;
+	margin-top:16px;
+	background:url(/images/topbar/home-icon.png) center no-repeat;
+	cursor:pointer;
+}
+#reply{position:relative;padding-bottom:24px;}
+#reply .replyShow{
+	width: 110px;
+    height: 127px;
+    background:url(/images/icon_reply.png) no-repeat;
+    position: absolute;
+    z-index: 999;
+    top: 38px;
+    left: -20px;
+    padding-top:30px;
+    display:none;
+}
+.replyShow span{display:block;line-height:40px;text-align:center;margin:0 auto;width:100px;}
+.replyShow span:hover{background:#419ff6;color:#fff;cursor: pointer;}

@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/*!
+trm.page.admin.css - 页面级的css，例如系统管理
+Copyright (c) 2016 Trm
+*/
+
+.dict-detail {
+    line-height: 28px;
+    margin: 10px 20px 20px 0px;
+}
+
+.dict-dropdown {
+    height: 30px;
+    width: 160px;
+    vertical-align: middle;
+    margin: 0px 0px 5px;
+    box-sizing: content-box;
+}
+
+.dict-dropdown2 {
+    height: 30px;
+    width: 35px;
+}
+
+.mgt-query-input {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    width: 22%;
+    height: 24px;
+}
+
+.magnify {
+    position: relative;
+    background: url(../../../../images/service/mgt/magnify.png) left center no-repeat;
+    width: 15px;
+    height: 15px;
+    float: left;
+    top: 5px;
+    margin-right: 10px;
+}
+
+.operateDiv {
+    font-size: 12px;
+}
+
+.dict-detail .o_label {
+    margin-left: 39px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dict-detail input {
+    padding: 0px 0px 0px 3px;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.dict-detail .errorMsg {
+    color: #ff7b20;
+    margin: 8px;
+    height: 60px;
+}
+
+.dict-detail .form-group {
+    margin-left: 30px;
+}
+
+.dict-detail .form-group label.error {
+    width: 90px;
+}
+
+.dict-detail .form-group label {
+    width: 180px;
+    float: none;
+}
+
+.dict-detail .form-group label.error,
+.dict-detail .form-group label.valid {
+    margin-left: 20px;
+}
+
+.dict-detail .form-group div {
+    margin: 10px;
+}
+
+.dict-detail .form-group .span-suggest {
+    font-size: 10px;
+    color: #999;
+}
+
+.form-actions {
+    margin-left: 289px;
+}
+
+.role-text{
+	border: 1px solid #ccc;
+    height: auto;
+    width: 500px;
+    float: left;
+    padding: 6px 8px;
+    margin-bottom: 33px
+}
+
+.role-desc{                                /*sunfang add 2016/11/17  */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 652px;
+}
+
+/*login 页面*/
+
+.loginscreen.middle-box {
+    width: 300px;
+}
+/*后端登录页面*/
+.middle-box {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+.middle-box h4{
+	color: #ffab32;
+	padding: 20px 0;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: '幼圆';
+}
+.middle-box .form-group {
+    margin: 13px 0px;
+}
+.middle-box button{
+	color: #ffab32 !important;
+	background-color: transparent !important;
+	border: 2px solid #ffab32 !important;
+	margin: 40px 0px !important;
+}
+.middle-box button:hover{
+    background-color: rgba(252, 252, 252, 0.1) !important;
+}
+.middle-box a{
+	color: #cfcfcf !important;
+}
+.middle-box a:hover{
+	color: #ffab32 !important;
+}
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    z-index: 100;
+}
+
+
+/*后台轮播图新增  wangxun start*/
+.slide-form-content.form-content{
+	width: 1100px;
+    margin: 20px 0px 85px 110px;
+}
+.slide-form-content .form-group>div>label{
+	width: 140px;
+}
+.slide-form-content .form-group .long-field{
+	width: 710px!important;
+}
+.slide-form-content .form-group .totle-string{
+	left: 145px;
+	bottom: 15px;
+}
+.slide-form-content .file-area-list .owner-img{
+	height: 50px;
+    background-position: 0px -30px;
+}
+.slide-form-content .form-group .img-upload-area{
+	height: 50px;
+}
+.slide-form-content .file-area-list img{
+	width: 106px;
+    height: 50px;
+}
+.slide-form-content .file-area-list .deletePicButton{
+	line-height: 50px;
+}
+/*后台轮播图新增  wangxun end*/
+
+/*后台全局配置 wangxun start*/
+.webConf-form-content.form-content{
+	width: 1100px;
+    margin: 20px 0px 85px 110px;
+}
+.webConf-form-content .form-group>div>label{
+	width: 140px;
+}
+.webConf-form-content .form-group .long-field{
+	width: 710px!important;
+}
+.webConf-form-content .form-group .totle-string{
+	left: 145px;
+	bottom: 15px;
+}
+.form-group span.valid_message_mgt{
+	float: left;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon-assist.png) no-repeat;
+    background-position: -301px -234px;
+    margin-top: 0px;
+    top: 8px;
+    position: relative;
+}
+.form-group label.tips{
+	color: #ff9c00;
+}
+.webConf-type-title{
+	margin: 30px 0px 80px 0px;
+}
+.webConf-type-title ul li{
+	float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+.webConf-type-title ul li.active a, 
+.webConf-type-title ul li:hover a{
+	color: #000;
+    border-bottom: 2px solid #5587fc;
+}
+.webConf-type-title ul li a{
+	padding: 5px 0px;
+}
+.webConf-type-title ul li i{
+	width: 1px;
+    height: 16px;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+    float: right;
+}
+.goods-form-button{
+	text-align: left;
+    margin-left: 200px;
+}
+/*后台全局配置 wangxun end*/
+

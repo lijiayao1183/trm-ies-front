@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title></title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.full-container {
+	width: 100%;
+	/* background-color: #fff; */
+}
+
+.container {
+	width: 100%;
+	margin: 20px auto;
+	padding: 30px;
+	/* background: #fff;
+	background-color: #f6f7f9; */
+}
+
+.title {
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.subTitle {
+	text-align: center;
+	font-size: 10px;
+	color: #333;
+	width: 90% line-height: 20px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.data-table {
+	width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.data-td {
+	margin: 10px;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    margin-left: 20px;
+    
+}
+</style>
+</head>
+<body>
+	<div class="page full-container">
+		<div class="container">
+			<div class="content">
+				<h3 class="title">${orgName}</h3>
+				<h5 class="subTitle">发布时间：${createTime}</h5>
+				<div>
+					<table class="data-table">
+						<tr>
+							<td class="data-td">机构地址</td>
+							<td class="data-td" colspan="3">${address}</td>
+						</tr>
+						<tr>
+							<td class="data-td">服务类型</td>
+							<td class="data-td">${servType}</td>
+							<td class="data-td">机构邮编</td>
+							<td class="data-td">${postcode}</td>
+						</tr>
+						<tr>
+							<td class="data-td">机构性质</td>
+							<td class="data-td">${property}</td>
+							<td class="data-td">机构属性</td>
+							<td class="data-td">${attribute}</td>
+						</tr>
+					</table>
+					<table class="data-table">
+						<tr>
+							<td class="data-td" colspan="4"><strong>负责人</strong></td>
+						</tr>
+						<tr>
+							<td class="data-td">姓名</td>
+							<td class="data-td">${header}</td>
+							<td class="data-td">电话</td>
+							<td class="data-td">${headerPhone}</td>
+						</tr>
+						<tr>
+							<td class="data-td">手机</td>
+							<td class="data-td">${headerMobile}</td>
+							<td class="data-td">邮箱</td>
+							<td class="data-td">${headerEmail}</td>
+						</tr>
+						<tr>
+							<td class="data-td" colspan="4"><strong>联系人</strong></td>
+						</tr>
+						<tr>
+							<td class="data-td">姓名</td>
+							<td class="data-td">${linker}</td>
+							<td class="data-td">电话</td>
+							<td class="data-td">${linkerPhone}</td>
+						</tr>
+						<tr>
+							<td class="data-td">手机</td>
+							<td class="data-td">${linkerMobile}</td>
+							<td class="data-td">邮箱</td>
+							<td class="data-td">${linkerEmail}</td>
+						</tr>
+					</table>
+					<table class="data-table">
+						<tr>
+							<td class="data-td" colspan="4"><strong>详情</strong></td>
+						</tr>
+						<tr>
+							<td class="data-td">机构简介</td>
+							<td class="data-td" colspan="3">${brief}</td>
+						</tr>
+						<tr>
+							<td class="data-td">人才队伍情况</td>
+							<td class="data-td" colspan="3">${team}</td>
+						</tr>
+						<tr>
+							<td class="data-td">规范化管理水平</td>
+							<td class="data-td" colspan="3">${mgtLevel}</td>
+						</tr>
+						<tr>
+							<td class="data-td">所获资质及荣誉</td>
+							<td class="data-td" colspan="3">${honor}</td>
+						</tr>
+						<tr>
+							<td class="data-td">技术服务情况</td>
+							<td class="data-td" colspan="3">${servCase}</td>
+						</tr>
+						<tr>
+							<td class="data-td">近年承担重要项目/案例</td>
+							<td class="data-td" colspan="3">${projectCase}</td>
+						</tr>
+					</table>
+					<table class="data-table">
+						<tr>
+							<td class="data-td" colspan="4"><strong>审核信息</strong></td>
+						</tr>
+						<tr>
+							<td class="data-td">审核状态 </td>
+							<td class="data-td">${audStatus}</td>
+							<td class="data-td">审核时间 </td>
+							<td class="data-td">${audDate}</td>
+						</tr>
+						<tr>
+							<td class="data-td">审核人 </td>
+							<td class="data-td">${audPerson}</td>
+							<td class="data-td">审核意见</td>
+							<td class="data-td">${audOpinion}</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

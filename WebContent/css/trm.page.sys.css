@@ -1,0 +1,37 @@
+/*!
+trm.page.sys.css - 页面级的css
+Copyright (c) 2016 Trm
+*/
+.bg-white{
+ background: #fff;
+}
+.bg-grey{
+ background: #ddd8d8;
+}
+.busy-content{
+    height: 800px;
+    width: 838px;
+    background: url(../images/busy_bg.png) 0 0 no-repeat;
+    position: absolute;
+    left: 24%;
+    top: 25%;
+} 
+.busy-content img{
+     width: 321px;
+    margin-top: 186px;
+} 
+.nofind-content{
+	margin-top:65px;
+	margin-left: 27px;
+}
+.nofind-content h4{
+	font-weight: bold;
+    line-height: 22px;
+    font-size: 17px;
+}
+.nofind-content h5{
+	line-height: 17px;
+    color: #a39f9f;
+    font-size: 13px;
+    margin-bottom:30px;
+}

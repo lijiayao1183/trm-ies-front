@@ -1,0 +1,196 @@
+/*!
+trm.page.arts.css - 页面级的css，文章类型
+Copyright (c) 2016 Trm
+*/
+body{
+  overflow-y: auto;
+}
+.bg-1{
+	background: url(../images/intro/banner.png) no-repeat;
+	height: 400px;
+	color: #fff;
+}
+
+.bg-1 .container{
+	max-width: 800px;
+    width: 800px;
+}
+.bg-1 ul>li {
+    float: left;
+    width: 159px;
+    text-align: center;
+}
+.bg-1 ul{
+    margin-left: 107px;
+}
+.bg-1 ul>li p{
+     font-size: 14px;
+    line-height: 36px;
+}
+
+.bg-1 h1{
+	font-size: 34px;
+    color: #fff;
+    font-weight: 100;
+    margin: 78px 0;
+    text-align:center;
+}
+.bg-2{
+	background:#fff;
+}
+
+.bg-2 .container{
+	max-width: 1050px;
+    width: 1050px;
+    font-size: 12px;
+    text-align:center;
+}
+.bg-2 .title{
+	 width: 680px;
+}
+
+.bg-2 h4{
+	font-size:24px;
+	color:#000;
+	margin: 30px 0 20px;	
+}
+.bg-2 ul{
+	    margin: 40px 0 20px;
+}
+.bg-2 ul>li {
+    float: left;
+    width: 160px;
+    margin: 10px 50px;
+    text-align:left;
+}
+.bg-2 ul>li>p{
+    line-height: 20px;
+}
+.bg-2 h4+p{
+	font-size:14px;
+	text-align:left;
+	line-height: 24px;
+}
+.bg-3{
+	background:#4b8be7;
+	color: #fff;
+}
+.bg-3 .container{
+    font-size: 12px;
+    text-align:center;
+}
+.bg-3 .title{
+	 width: 660px;
+}
+.bg-3 h4{
+        margin: 44px 0 20px;
+}
+.bg-3 .link-btn{
+	width: 110px;
+    height: 44px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    border-radius: 23px;
+    cursor: pointer;
+    margin: 18px 0;
+      
+}
+.bg-3 h4+p{
+	font-size: 14px;
+    text-align: left;
+    line-height: 21px;
+    margin: 16px 0;
+}
+
+.bg-4 .container{
+	max-width: 970px;
+    width: 970px;
+}
+.bg-4 img{
+	margin: 82px 0 21px;
+}
+.bg-4 .text {
+    float: right;
+    margin-right: 108px;
+    margin-top: -212px;
+    color: #707070;
+    font-size: 16px;
+    line-height: 22px;
+}
+.feature-icon-1,
+.feature-icon-2,
+.feature-icon-3,
+.feature-icon-4 {
+    background: url(../images/intro/ic_zljs.png) no-repeat;
+    height: 64px;
+    width: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-icon-1 {
+	background-position: -15px -19px;
+}
+.feature-icon-2 {
+	background-position: -87px -19px;
+}
+.feature-icon-3 {
+	background-position: -162px -19px;
+}
+.feature-icon-4 {
+	background-position: -237px -19px;
+}
+.chat-part{
+    margin-right: -143px;
+    margin-top: -36px;
+    width: 123px;
+    margin-left: auto;
+}
+.chat-part span{
+    font-size: 12px;
+}
+  
+.wechat-detail-1 {
+    background: url(../images/intro/ic_zljs.png) no-repeat;
+    height: 120px;
+    width: 120px;
+    background-position: -20px -304px;
+}
+.step-icon-1,
+.step-icon-2,
+.step-icon-3,
+.step-icon-4 {
+    background: url(../images/intro/ic_zljs.png) no-repeat;
+    height: 106px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+.step-icon-1{
+	    background-position: 0px -100px;
+}
+.step-icon-2{
+	background-position: -107px -88px;
+}
+.step-icon-3{
+	background-position: -219px -88px;
+    width: 100px;
+}
+.step-icon-4{
+	background-position:-305px -88px;
+    width: 100px;
+}
+.tip-img-1{
+    background: url(../images/intro/ic_zljs.png) no-repeat;
+    background-position: -17px -223px;
+    width: 246px;
+    height: 65px;
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    padding: 12px 10px 10px 44px;
+}
+

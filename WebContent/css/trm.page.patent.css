@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*!
+trm.page.patent.css - 页面级的css，例如专利
+Copyright (c) 2016 Trm
+*/  
+
+/* 中端列表管理页 start*/
+/* .content-table .tdw74{
+  width: 74px;
+} */                                               /*delete by sunfang 2016-11-29  */
+.patent-name{                                      /*add by sunfang 2016-11-29  */
+	max-width: 74px;
+    word-break: break-all;
+}
+/* 中端列表管理页 end*/
+
+/* 中端添加页面 start */
+.form-content .identify-message{
+	margin-left: 145px;
+}
+.form-content .identify-message a{
+	color:#fe4201;
+}
+.form-content .pro-message{
+    display: inline-block;	
+	width: 166px;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 17px;
+    vertical-align: middle;
+    color: #999;
+}
+/* 中端添加页面 end */
+/* 中端列表页 start */
+.content-table table tbody tr td.patent-name {
+	word-break: break-all;
+}
+/* 中端列表页 end */
+
+ /*add by chaojiangtao 2016-12-01  */
+ 
+.file-area-list .owner-img {
+    width: 137.8px;
+    background-position: center;
+}
+.file-area-list .deletePicButton {
+    left: -137.8px;
+    width: 137.8px;
+}
+.file-area-list img {
+    width: 137.8px;
+}
+.form-group span.uploadfile-tips {
+    width: 60px;
+    margin-top: 0;
+}
+.form-group.high-form-group>div{
+	width: 320px;
+}
+.form-group.high-form-group>div.second-column{
+	width: 610px;
+}
+.file-area-list li{
+	margin-right: -137px;
+}
+/* 前端专利详情 start */
+.show-more{
+	cursor: pointer;
+}
+.show-more:hover{
+	color: #f9514e;
+}
+/* 前端专利详情 end */

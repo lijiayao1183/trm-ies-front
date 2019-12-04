@@ -1,0 +1,204 @@
+.news-nav ul li {
+	width: 235px;
+    height: 70px;
+    background-color: #f5f5f5;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+}
+.news-nav ul li.active, .news-nav ul li:hover {
+    background-color: #419ff6;
+    color: #fff;
+}
+.news-list {
+	width: 1200px;
+	margin: 0 auto;
+    padding: 15px;
+    background-color: #f6f7f9;
+}
+.news-ul {
+	margin: 0 auto;
+}
+
+.news-ul li {
+	margin-bottom: 20px;
+	border: 1px solid #e9e8ea;
+	position: relative;
+    top: 19px;
+    background: #fbfbfb;
+}
+
+.news-ul li .demand-name {
+	line-height: 36px;
+	font-size: 18px;
+	color: #000;
+	background: #fbfbfb;
+	padding: 14px 19px;
+    display: inline-block;
+    width: 470px;
+    margin: 0;
+}
+
+.news-ul li .demand-line span {
+	width: 40%;
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #666;
+	line-height: 48px;
+}
+
+.demand-search {
+    height: 120px;
+    padding: 30px 50px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-search {
+    width: 650px;
+    height: 54px;
+    padding: 8px 12px;
+    outline: none;
+    font-size: 18px;
+}
+.s-btn {
+    display: inline-block;
+    width: 120px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #419ff6;
+    position: relative;
+    top: 0;
+    left: -5px;
+    border: 1px solid #419ff6;
+}
+
+.detail-btn {
+	background: url(/images/seebg.png) no-repeat;
+	width: 80px;
+	height: 30px;
+	margin-left: 1038px;
+	margin-bottom: 14px;
+}
+
+.detail-btn:hover {
+	background: url(/images/seebghover.png) no-repeat;
+}
+
+.data-part {
+	width: 100%;
+}
+
+.detail h1 {
+	font-size: 28px;
+	color: #000;
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+.detail p {
+	margin-bottom: 60px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+
+.detail p span {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.detail .deta {
+	width: 100%;
+}
+
+.deta span {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	font-size: 16px;
+	color: #333;
+	vertical-align: top;
+}
+
+.deta div {
+	display: inline-block;
+	width: 900px;
+	border: 1px solid #e6e6e6;
+	background: #f3f5f7;
+	margin-bottom: 50px;
+}
+
+.deta .content {
+	font-size: 16px;
+	line-height: 45px;
+	padding: 10px;
+}
+
+.back {
+	background: url(/images/square.png) no-repeat;
+	width: 100px;
+	height: 41px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 41px;
+}
+
+.back:hover {
+	color: #000;
+	cursor: pointer;
+}
+
+.content {
+	padding-bottom: 30px;
+	background: #fff;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.form-group .vereist {
+	width: 320px;
+	text-align: right;
+	disblock: inline-block;
+}
+
+.form-group input {
+	width: 480px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.form-group textarea {
+	width: 750px;
+	height: 200px !important;
+	line-height: 40px;
+}
+
+.save_form {
+	background: url(/images/square.png) no-repeat;
+	width: 100px;
+	height: 41px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 41px;
+}
+
+.save_form:hover {
+	color: #000;
+	cursor: pointer;
+}
+
+.form-group .error-tips {
+	margin-left: 20px !important;
+}

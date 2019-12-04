@@ -1,0 +1,103 @@
+{
+	"navName": "个人中心",
+	"navCode": "UC0000",
+	"navUrl": "/views/content/personal/ucenter/main.jsp",
+	"indexNavList": [
+	{
+		"navTitle": "基本信息",
+		"list": [{
+			"name": "个人信息",
+			"code": "UC0101",
+			"url": "/views/content/personal/ucenter/basicInformation.jsp"
+		},
+		{
+			"name": "密码管理",
+			"code": "UC0102",
+			"url": "/views/content/personal/ucenter/authentication.jsp"
+		},
+		{
+			"name": "我的关注",
+			"code": "UC0103",
+			"url": "/views/content/follow/ucenter/srchlist.jsp"
+		},
+		{
+			"name": "我的评论",
+			"code": "UC0104",
+			"url": "/views/content/comment/ucenter/srchlist.jsp"
+		},
+		{
+			"name": "我的消息",
+			"code": "UC0105",
+			"url": "/views/content/personal/ucenter/messages.jsp"
+		}]
+	},
+	{
+		"navTitle": "设备管理",
+		"list": [{
+			"name": "发布设备",
+			"code": "UC0201",
+			"url": "/views/content/equipment/ucenter/apply.jsp"
+		},
+		{
+			"name": "我的设备",
+			"code": "UC0202",
+			"url": "/views/content/equipment/ucenter/srchlist.jsp"
+		}]
+	},
+	{
+		"navTitle": "需求管理",
+		"list": [{
+			"name": "发布需求",
+			"code": "UC0203",
+			"url": "/views/content/demand/ucenter/apply.jsp"
+		},
+		{
+			"name": "我的需求",
+			"code": "UC0204",
+			"url": "/views/content/demand/ucenter/srchlist.jsp"
+		}]
+	},{
+		"navTitle": "服务机构管理",
+		"list": [{
+			"name": "发布机构",
+			"code": "UC0210",
+			"url": "/views/content/laboratory/ucenter/apply.jsp"
+		},{
+			"name": "我的机构",
+			"code": "UC0211",
+			"url": "/views/content/laboratory/ucenter/srchlist.jsp"
+		}]
+	},
+	{
+		"navTitle": "报送服务成效",
+		"list": [{
+			"name": "在线季报",
+			"code": "UC0208",
+			"url": "/views/content/quarterly/ucenter/apply.jsp"
+		},{
+			"name": "我的季报",
+			"code": "UC0209",
+			"url": "/views/content/quarterly/ucenter/srchlist.jsp"
+		}]
+	},
+	{
+		"navTitle": "用户管理",
+		"list": [{
+			"name": "新增用户",
+			"code": "UC0205",
+			"url": "/views/content/usermgt/ucenter/apply.jsp"
+		},{
+			"name": "我的用户",
+			"code": "UC0206",
+			"url": "/views/content/usermgt/ucenter/srchlist.jsp"
+		}]
+	},
+	{
+		"navTitle": "互动交流",
+		"list": [{
+			"name": "互动交流",
+			"code": "UC0207",
+			"url": "/views/content/interaction/ucenter/srchlist.jsp"
+		}]
+	}]
+}

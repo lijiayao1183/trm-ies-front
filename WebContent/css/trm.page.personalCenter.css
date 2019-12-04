@@ -1,0 +1,1148 @@
+@charset "UTF-8";
+/*!
+trm.page.cm.css - 页面级的css，例如个人中心
+Copyright (c) 2016 Trm
+*/
+
+/*个人认证  start*/
+.form-group input[type=text],
+.form-group select,
+.form-group .radio-box,
+.form-group textarea{
+	width: 520px;
+	line-height: 20px;
+}
+.file-area-list .idPhotoFront-img,
+.file-area-list .idPhotoBehind-img{
+    width: 160px;
+    height: 100px;
+    border: 0px;
+	background: url(/images/icon-l-assist.png);
+    background-position: -164px -409px;
+    cursor: auto;
+    margin-right: 0px;
+}
+.file-area-list .idPhotoBehind-img{
+    background-position: 0px -409px;
+}
+.upload-btn{
+	margin-top: 65px;
+	padding: 0px !important;
+}
+.upload-btn input[type="file"]{
+	position: relative;
+    top: -100%;
+}
+.form-group.high-form-group>div{
+	width: 395px;
+}
+.form-group.high-form-group>div.second-column{
+	width: 450px;
+	margin-left: 60px;
+}
+.form-group .img-tip1{
+	width: 360px;
+}
+.form-group .img-tip2{
+	margin-left: 35px;
+}
+.form-group .error-tips{
+	font-size:12px;
+}
+.file-area-list{
+	float: left;
+    margin-right: 12px;
+    margin-bottom: 0px;
+}
+.file-area-list li{
+	float: none;
+    margin-right: 0px;
+    display: inline-block;
+}
+.file-area-list img{
+	width: 160px;
+    height: 100px;
+}
+.prompt_line {
+	margin-left: 110px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.prompt_line .red {
+	color:#f9514e;
+}
+/*个人认证  end*/
+
+/*企业认证  start*/
+.form-group span.uploadfile-tips{
+	width: 245px;
+	margin-top: 40px;
+}
+.radio-box.trArea{
+	height: 19px;
+}
+.span-radio + label{
+	margin: 0px 30px 0px 22px;
+}
+.square-box{
+	position: relative;
+    width: 15px;
+    left: 21px;
+    top: -19px;
+}
+.square1{
+	border-color: transparent transparent #f2f2f2;
+    top: -1px;
+}
+.square2{
+	border-color: transparent transparent #fff;
+    top: 0px;
+}
+.square1, .square2{
+	width: 0;
+    height: 0;
+    overflow: hidden;
+    border-width: 10px;
+    border-style: dotted dotted solid;
+    position: absolute;
+}
+.auth-filter-box{
+	border: 1px #f2f2f2 solid;
+    margin-top: 5px;
+    margin: 0px 25px 40px 25px;
+}
+.auth-filter-box .form-group{
+	line-height: 20px;
+    height: 47px;
+}
+.auth-filter-box label.vereist{
+	margin-top: 12px;
+}
+.auth-filter-box .span-radio + label{
+	top: -1px;
+}
+ul[name=busiLicense_img] img{
+	width: 106px;
+    height: 106px;
+}
+.auth-filter-box .radio-box{
+	width: 780px;
+}
+/*企业认证  end*/
+
+/*手机认证和修改 start*/
+.modal-body-tel{
+	padding: 15px 30px;
+}
+.stepInfo{
+    margin: 0px auto;
+    width: 370px;
+}
+.stepInfo ul{
+	height: 2px;
+    background: #ccc;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+.stepInfo li{
+	float: left;
+    width: 50%;
+    height: 2px;
+    background: #ccc;
+}
+.stepInfo li:first-child{
+	border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    -moz-border-radius-topleft: 0.5em;
+    -moz-border-radius-bottomleft: 0.5em;
+    -webkit-border-top-left-radius: 0.5em;
+    -webkit-border-bottom-left-radius: 0.5em;
+}
+.stepIco.active{
+	background: #f9514e;
+}
+.stepIco1{
+	top: -5px;
+    left: 0%;
+}
+.stepIco2{
+	top: -4px;
+    left: 49%;
+}
+.stepIco3{
+	top: -4px;
+    left: 98%;
+}
+.stepIco{
+	border-radius: 1em;
+    background: #ccc;
+    line-height: 1.5em;
+    position: absolute;
+    width: 0.8em;
+    height: 0.8em;
+    font-size: 12px;
+}
+.stepText{
+	color: #b3b3b3;
+    margin-top: 1.0em;
+    width: 72px;
+    text-align: center;
+    margin-left: -2.4em;
+}
+.stepText .name{
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+/*手机认证和修改 end*/
+
+/*认证首页 start*/
+.auth-list li{
+	padding: 16px 20px;
+    height: 85px;
+}
+.auth-list li>div{
+	display: inline-block;
+}
+.auth-list .auth-name{
+	position: relative;
+    bottom: 22px;
+    width: 119px;
+}
+.auth-list .auth-status{
+	position: relative;
+    bottom: 22px;
+    width: 200px;
+    text-align: center;
+    color: #f9514e;
+}
+.auth-list .auth-button{
+	position: relative;
+    bottom: -10px;
+    float: right;
+}
+.auth-list .auth-tel,
+.auth-list .auth-mail{
+	position: relative;
+    bottom: 22px;
+    width: 200px;
+    color: #f9514e;
+    word-wrap: break-word;
+}
+.auth-list .btn{
+	width: 74px;
+}
+.auth-title .th{
+	margin-left: 15px;
+    color: #000;
+}
+.modal-body .form-content .error-tips{
+	text-align: left;
+	margin-left: 5px;
+}
+.modal-body .form-group{
+	line-height: 48px;
+}
+/*认证首页 end*/
+
+/*账号绑定 start*/
+.bind-acc-tecent,
+.bind-acc-wechat,
+.bind-acc-sina{
+	width: 72px;
+    height: 72px;
+    display: inline-block;
+    position: relative;
+    background: url(/images/icons-bg.png) 0 0 no-repeat;
+}
+.bind-acc-tecent{
+	background-position: 1px 1px;
+}
+.bind-acc-wechat{
+	background-position: -108px 1px;
+}
+.bind-acc-sina{
+	background-position: -216px 1px;
+}
+.bind-acc-tecent.grey-icon{
+	background-position: 1px -93px;
+}
+.bind-acc-wechat.grey-icon{
+	background-position: -108px -93px;
+}
+.bind-acc-sina.grey-icon{
+	background-position: -216px -93px;
+}
+.bind-acc-obj{
+	display: inline-block;
+    width: 306px;
+    height: 160px;
+    margin-right: 16px;
+    background: url(/images/icons-bg.png) 0 0 no-repeat;
+    background-position: -335px 1px;
+}
+.acc-info{
+	padding: 26px 20px 32px 20px;
+}
+.acc-info>div{
+	display: inline-block;
+    width: 80px;
+    position: relative;
+    top: -14px;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.bind-acc-list{
+	padding: 3px;
+	min-height: 836px;
+}
+.bind-info{
+	text-align: center;
+    line-height: 5px;
+    color: #FFF;
+}
+.bind-acc-list .QRCode-area{
+	position: relative;
+    top: -50px;
+    float: left;
+    right: 90px;
+    width: 450px;
+    height: 450px;
+    background: #000;
+}
+.bind-acc-list .QRCode-area iframe{
+    margin: 50px 0px 0px 75px;
+}
+/*账号绑定 end*/
+
+/*账号安全 start*/
+.content-box.msg{
+	background: #FFFFE7;
+}
+.error-tips-pwd{
+	color: #999;
+	font-size: 12px;
+	height: 34px;
+    line-height: 34px;
+    margin-left: 120px;
+}
+.error-tips-pwd .pwd-level{
+	color: #f9514e;
+	margin: 0px 10px;
+}
+.pwd-level-icon{
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+	background: url(/images/icon-level.png) no-repeat;
+}
+.pwd-level-icon.low-level{
+    background-position: -1px -28px;
+}
+.pwd-level-icon.normal-level{
+    background-position: -105px -28px;
+}
+.pwd-level-icon.high-level{
+    background-position: -209px -28px;
+}
+.form-group span.valid_message_pwd{
+	float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    background: url(/images/icon-assist.png) no-repeat;
+    background-position: -127px -118px;
+}
+.form-group label.error-pwd{
+	font-size: 12px;
+    color: #ff7b20;
+}
+.acc-form-content .error-tips{
+    margin-left: 120px;
+}
+.acc-form-content .form-group input[type=text],
+.acc-form-content .form-group input[type=password]{
+	width: 240px;
+	height: 34px;
+}
+.acc-form-content .form-group{
+	line-height: 34px;
+}
+/*账号安全 end*/
+
+/*我的收藏 start*/
+.table>thead>tr{
+	background-color: #f5f5f5;
+    height: 28px;
+}
+.content-table .tdw100{
+	width: 100px;
+}
+.content-table .tdw130{
+	width: 130px;
+}
+.content-table .tdw260{
+	width: 260px;
+}
+.content-table .tdw320{
+	width: 320px;
+}
+/*我的收藏 end*/
+
+/*我的鲲鹏币 start*/
+.blue-color{
+	color: #09f;
+}
+.bottom-bar i{
+	font-weight: bold;
+}
+/*我的鲲鹏币 end*/
+/*我的成长 start*/
+.growth-user-info{
+	color: #000;
+}
+.growth-user-info div{
+	float:left;
+}
+.growth-userName{
+	width: 450px;
+    font-size: 18px;
+    margin: 30px 0px 10px 13px;
+}
+.growth-info{
+	margin-left: 13px;
+	line-height: 40px;
+}
+.growth-info>div{
+	margin-right: 50px;
+}
+.growth-info>div>div{
+	margin-right: 20px;
+}
+.growth-vip{
+    width: 678px;
+    height: 278px;
+	background: url(/images/icons-bg.png) no-repeat;
+    background-position: 0px -447px;
+    margin-left: 137px;
+    margin-bottom: 26px;
+}
+.vip-tips{
+	font-size: 12px;
+    color: #666;
+    width: 336px;
+    margin: 7px 10px;
+}
+.credit-tips{
+	font-size: 12px;
+    color: #666;
+    width: 285px;
+    margin: 7px 10px;
+}
+.credit-content-box{
+	width: 490px;
+    height: 288px;
+    float: left;
+    margin-right: 10px;
+}
+.type-content-box{
+	width: 485px;
+    line-height: 46px;
+    float: left;
+    padding: 0px;
+}
+.price-content-box{
+	width: 485px;
+    height: 232px;
+    float: left;
+    padding: 0px;
+}
+.growth-credit{
+	width: 192px;
+    height: 173px;
+    background: url(/images/evaluation_img.png) no-repeat;
+    background-position: -367px -1030px;
+    margin-left: 139px;
+    margin-top: 35px;
+}
+.type-content-box>div{
+	float: left;
+    width: 242px;
+    text-align: center;
+}
+.price-content-box li{
+	float: left;
+    width: 485px;
+    height: 66px;
+    text-align: center;
+}
+.price-content-box li>div{
+	float: left;
+    width: 242px;
+    line-height: 64px;
+}
+.price-content-box li .btn{
+	margin-top: -10px;
+}
+.growth-high{
+	height: 100px;
+	line-height: 100px!important;
+}
+.price-content-box li>div:first-child{
+	border-right: 1px dotted;
+}
+.growth-middle-li>div{
+	border-bottom: 1px dotted;
+    border-top: 1px dotted;
+}
+/*我的成长 end*/
+
+/*我的消息 start*/
+.tool-bar .pos-relative{
+	position: relative;
+}
+.tool-bar .form-control{
+	width: 106px;
+	height: 28px;
+    font-size: 12px;
+	line-height: 28px;
+}
+.msg-status-icon{
+	position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #FFF;
+    pointer-events: none;
+}
+.msg-content-table{
+	font-size: 12px;
+	padding: 0px 12px;
+}
+.tips-color{
+	color: #ff7000;
+}
+.tips-color-green{
+	color: #6db35c;
+}
+.unread-tip{
+	color: #000;
+}
+.unread-sum{
+	font-weight: bold;
+    font-size: 14px;
+}
+.step-area{
+	width: 20px;
+    height: 240px;
+    float: left;
+}
+.step-area .node-icon{
+	top: 0px;
+    right: 10px;
+}
+.step-area .step-line{
+	width: 1px;
+    height: 270px;
+    margin-top: -5px;
+    background-color: #ffbebe;
+}
+.msg-time{
+	color: #808080;
+    margin-bottom: 10px;
+}
+.msg-body{
+	height: 227px;
+    border-bottom: 2px dotted #e6e6e6;
+    border-top: 2px dotted #e6e6e6;
+    background: #fafafa;
+    margin-left: 20px;
+    padding: 12px 10px;
+    line-height: 22px;
+    color: #999;
+}
+.msg-list>div{
+	margin-top: 15px;
+}
+.msg-list .span-checkbox{
+	margin-top: 2px;
+}
+.msg-tile{
+	margin-left: 30px;
+    display: inline-block;
+    color: #000;
+    width: 762px;
+    font-weight: bold;
+}
+.msg-content{
+	padding: 10px 120px 15px 30px;
+	word-break: break-all;          /*add by sunfang 2016-11-25  *//*modify by sunfang 2016-11-28  */
+}
+.msg-content-table .buttom-bar{
+	margin: 10px 0px 0px 30px;
+}
+/*我的消息 end*/
+
+/*个人中心--收支明细--wangfan*/
+.tool-bar{
+	margin: 0px;
+	padding:0 10px;
+    height: 40px;
+}
+.pull-right .laydate-icon.small{
+	left:130px;
+	top: 0px;
+}
+.status-title .title{
+	line-height: 25px;
+}
+.table > thead > tr > td{
+	padding: 3px;
+}
+.tdw180{
+	width:180px;
+}
+.table > tbody > tr > td{
+	line-height: 26px;
+}
+.bottom-bar .all-outlay{
+	margin-top:8px;
+}
+.bottom-bar{
+	padding-top:16px;
+	font-size:14px;
+	height: 36px;
+	padding-left: 30px;
+}
+.status-title ul li{
+	float: left;
+    width: 70px;
+    text-align: center;
+    font-size: 12px;
+}
+ul{
+	margin-bottom: 0px;
+}
+.status-title ul li.active a,
+.status-title ul li:hover a{
+	color: #f9514e;
+    border-bottom: 1px solid;
+}
+.status-title ul li i{
+	width: 1px;
+    height: 16px;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+    float: right;
+}
+.tool-bar .pull-left.time,
+.tool-bar .pull-left.number,
+.tool-bar .pull-left.search{
+	height:28px;
+	font-size:12px;
+	border-color:rgba(204,204,204,1);
+}
+.tool-bar .pull-left.time{
+	width:160px;
+}
+.tool-bar .pull-left.number{
+	width:220px;
+	margin-left:10px;
+}
+/*个人中心--收支明细--end--wangfan*/
+
+/*个人中心--首页--wangfan*/
+.index-user-info{
+	height:120px;
+	padding-top:20px;
+	color: #000;
+}
+.index-user-info>div{
+	float: left;
+}
+.index-user-info .user-credit{
+	width: 400px;
+	margin-left: 15px;
+}
+.index-user-info .username{
+	font-size: 18px;
+	margin: 15px 0px 10px 15px;
+}
+.index-user-info .user-credit>div{
+	display: inline-block;
+}
+.index-user-info .user-info{
+	float: left;
+}
+.index-user-info .user-info .wd130{
+	width:130px;
+}
+.index-user-info .user-info .wd265{
+	width:265px;
+}
+.index-user-info .pwd-level{
+	margin-right: 5px;
+}
+.index-user-info .change-password{
+	font-size: 12px;
+    margin-left: 10px;
+}
+.index-user-info .income-info{
+	width: 162px;
+    margin-left: 136px;
+}
+.index-trade-info{
+	color: #000;
+	padding: 10px;
+    line-height: 26px;
+}
+.index-trade-info .trade-tile{
+	margin-right: 35px;
+}
+.index-trade-info .all-orders,.more-collect {
+	float: right;
+    font-size: 12px;
+    color: #999;
+}
+.index-trade-info .all-orders:hover{
+    color: #F9514E;
+}
+.index-trade-list .item-pic{
+	margin: 20px 15px 10px 10px;
+}
+.index-trade-list .item-info{
+    width: 340px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.index-trade-list .item-info .name{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.index-trade-list ul li>div{
+	float: left;
+	font-size: 12px;
+}
+.index-trade-list ul li{
+	height: 107px;
+}
+.index-trade-list .order-info{
+	margin-top: 30px;
+}
+.index-trade-list .time{
+	width: 150px;
+    text-align: center;
+}
+.index-trade-list .price{
+	width: 211px;
+    text-align: center;
+}
+.index-trade-list .option{
+	width: 150px;
+    text-align: center;
+}
+.index-trade-list .border-li{
+	border-bottom: 1px dotted #999;
+    border-top: 1px dotted #999;
+}
+.index-auth-info .auth-obj{
+	float: left;
+    margin: 0px 10px;
+    font-size: 12px;
+    width: 221px;
+}
+.index-auth-info .auth-name{
+	margin: 0px 10px 0px 5px;
+    display: inline-block;
+    width: 73px!important;
+}
+.index-auth-info .auth-status{
+	display: inline-block;
+    width: 48px!important;
+}
+.index-auth-info{
+	height: 100px;
+    padding: 25px 0px 0px 12px;
+}
+.good-list-item li dl{
+	border-bottom: none!important;
+	padding-bottom: 0px!important;
+	width: 156px;
+}
+.good-list-item li{
+	margin-bottom: 0px;
+	width: 176px;
+}
+.good-list-item li .pic,
+.good-list-item li .pic img{
+    width: 156px;
+    height: 131px;
+}
+.good-list-item li.hasline{
+	width: 1px;
+    margin: 0px 10px;
+    padding: 0px;
+    border-left: 1px dotted #999;
+    height: 131px;
+    margin-top: 10px;
+}
+.good-list-item li .name a{
+	font-size: 12px;
+	color: #000;
+}
+.good-list-item li dd .num{
+	font-weight: bold;
+}
+/*个人中心--首页--end--wangfan*/
+
+/*个人中心--基本信息--start--wangfan*/
+.basic-content-box{
+	min-height: 725px;
+}
+.basic-content-box .form-content{
+	overflow:hidden;
+	padding:0 50px;
+}
+.basic-content-box .form-left{
+	float: left;
+    width: 585px;
+    margin-top:30px;
+}
+.basic-content-box .form-right{
+	float: right;
+    width: 180px;
+    margin: 20px 56px 10px 75px;
+    font-size: 12px;
+    text-align: center;
+}
+.basic-content-box .basic-img-message{
+	float: left;
+    line-height: 20px;
+}
+.basic-content-box .basic-img-size{
+	color: #666;
+    margin: 5px 0px;
+}
+.basic-content-box .basic-img-text{
+	color: #d0d0d0;
+    margin-bottom: 15px;
+}
+.basic-content-box .form-group{
+	line-height: 37px;
+    height: 54px;
+}
+.basic-content-box .vereist{
+	line-height: 37px;
+}
+.basic-content-box .form-group input[type=text],
+.basic-content-box .form-group .radio-box{
+	width: 240px;
+    height: 34px;
+}
+.basic-content-box .form-group select{
+	width: 240px;
+    height: 34px;
+    line-height: 34px;
+}
+.basic-content-box .form-group .affily-filed {
+	width:175px;
+}
+.basic-content-box .form-group .dis-pick {
+	width:120px;
+}
+.basic-content-box .form-group .error-tips{
+	font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.basic-content-box .form-group .valid_message_select,
+.basic-content-box .form-group .valid_message{
+	margin-top: 1px;
+}
+.basic-content-box .form-group .radio-box{
+	margin: 9px 0 0 0;
+}
+.basic-content-box .form-group .pos-relative{
+	position: relative;
+}
+.basic-content-box .form-group .laydate-icon{
+	left: 317px;
+    top: 4px;
+}
+.file-area-list .account-img{
+	height: 110px;
+    width: 110px;
+    border-radius: 55px;
+    position: relative;
+    background: url(../images/icons-basic-info.png) no-repeat;
+    background-position: -127px -3px;
+    border: none;
+}
+.basic-content-box .file-area-list img{
+	height: 110px;
+    width: 110px;
+    border-radius: 55px;
+}
+.basic-content-box .chooseFile{
+	color: #666;
+	background-color: #d9d9d9;
+    border-color: #d9d9d9;
+    height: 34px;
+    line-height: 32px;
+    width: 110px;
+    padding: 0px !important;
+}
+.basic-content-box .span-radio{
+	background: url(../images/icons-basic-info.png) no-repeat;
+	background-position: -25px -49px;
+}
+.basic-content-box .span-radio.checked{
+	background-position: 4px -49px;
+}
+.basic-content-box .laydate-icon-default{
+	background: url(../images/icons-basic-info.png) no-repeat;
+    background-position: -52px -46px;
+}
+.chooseFile input[type="file"]{
+	position: relative;
+    top: -100%;
+}
+/* add by wangxun 2017-04-06 start*/
+.basic-content-box .basicInfo-tips{
+	margin-left: 0px;
+    width: 116px;
+    position: relative;
+    top: -20px;
+    right: 5px;
+}
+.basic-content-box .basicInfo-tips .goods-img-error{
+	line-height: 20px;
+}
+/* add by wangxun 2017-04-06 end*/
+/*个人中心--基本信息--end--*/
+
+/*个人中心----我的地址-wangfan*/
+.address-title{
+    background: #f5f5f5;
+    font-size: 12px;
+}
+.address-title .address-tips{
+	font-weight: bold;
+	margin: 0px 30px 0px 10px;
+    font-size: 14px;
+}
+.address-title .btn{
+	margin-bottom: 4px;
+}
+.address-title .address-num{
+	margin-right: 70px;
+}
+.cart-address {
+	margin: 10px 0;
+	position: relative;
+	height: 240px;
+}
+.cart-address .add-mi {
+	height: 190px;
+	width: 310px;
+	float: left;
+	margin: 5px 0 10px 8px;
+	background: url(../images/addr.png) no-repeat;
+	background-size: 310px 190px!important;
+	padding: 6px 17px;
+}
+.cart-address .add-mi.active{
+	background: url(../images/addr-check.png) no-repeat;
+}
+.cart-address .add-mi.add-one{
+	padding: 80px 0;
+    background: #fcfcfc;
+    border: 1px solid #e6e6e6;
+}
+.cart-address .add-mi .line{
+    font-size: 12px;
+    height: 31px;
+    vertical-align: middle;
+    margin: 13px 0px;
+    color: #000;
+    line-height: 25px;
+}
+.cart-address .add-mi .line.has-line{
+    border-bottom: 1px dashed #e6e6e6;
+}
+.cart-address .add-mi .line i,
+.cart-address .line span,
+.cart-address a.btn.edit-address{
+    margin-right: 10px;
+}
+.cart-address a.btn.del-address{
+    margin-right: 28px;
+}
+.line .addr-label{
+	height:25px;
+	margin-bottom:15px;
+}
+.set-default{
+	margin-top: 5px;
+    color: #999;
+    font-size: 12px;
+}
+.modal-body-form .form-group input[type=text]{
+	width: 240px;
+}
+/*个人中心--我的地址--end--*/
+
+/*后台认证列表页 start*/
+.authList-type-title{
+	margin: 30px 0px 80px 0px;
+}
+.authList-type-title ul li{
+	float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+.authList-type-title ul li.active a,
+.authList-type-title ul li:hover a{
+	color: #000;
+    border-bottom: 2px solid #5587fc;
+}
+.authList-type-title ul li a{
+	padding: 5px 0px;
+}
+.authList-type-title ul li i{
+	width: 1px;
+    height: 16px;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+    float: right;
+}
+/*后台认证列表页 end*/
+/* 中端认证前提醒页样式   start  */
+.ucenter-authentic .message {
+	font-weight: bold;
+}
+.ucenter-authentic .explain-bar {
+	margin: 10px;
+    background-color: #fffcf4;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.ucenter-authentic .authen-area {
+	margin-top: 30px;
+    padding: 20px;
+}
+.ucenter-authentic .authen-item {
+	display: inline-block;
+	float: left;
+	margin-right: 70px;
+	cursor: pointer;
+}
+.ucenter-authentic .authen-item:first-child {
+	margin-left: 200px;
+}
+.ucenter-authentic .authen-item span{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 53px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.ucenter-authentic .goto-authen {
+	display: block;
+	margin-top: 30px;
+}
+.ucenter-authentic .goto-authen .btn {
+	padding:6px 20px;
+}
+/* 中端认证前提醒页样式   end  */
+
+/*认证提示页-进度条 start*/
+.auth-steps .stepInfo{
+	position: relative;
+    background: #f2f2f2;
+    margin: 40px auto 75px auto;
+    width: 480px;
+}
+.auth-steps .stepInfo li{
+	float: left;
+    width: 160px;
+    height: 0.46em;
+    background: #ccc;
+}
+.auth-steps .stepInfo li.active,
+.auth-steps .stepIco.active{
+	background: #f9514e;
+}
+.auth-steps .stepIco{
+	border-radius: 1em;
+    padding: 0.09em;
+    background: #ccc;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    width: 1.8em;
+    height: 1.8em;
+    font-size: 0.7em;
+}
+.auth-steps .stepIco1{
+	top: -0.7em;
+    left: 14%;
+}
+.auth-steps .stepIco2{
+	top: -0.7em;
+    left: 48%;
+}
+.auth-steps .stepIco3{
+	top: -0.7em;
+    left: 80%;
+}
+.auth-steps .stepText{
+	color: #b3b3b3;
+    margin-top: 1.0em;
+    width: 100px;
+    text-align: center;
+    margin-left: -3.4em;
+}
+.auth-steps .stepIco.active .stepText{
+	color: #f9514e;
+}
+.auth-steps .stepInfo li:last-child{
+	border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    -moz-border-radius-topright: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+    -webkit-border-top-right-radius: 0.5em;
+    -webkit-border-bottom-right-radius: 0.5em;
+}
+/*认证提示页-进度条 end*/
+
+/* 表格展示 */
+.form-content h1{
+	width:100%;
+	line-height:36px;
+	font-size:24px;
+	text-align:center;
+	margin-bottom:36px;
+}
+
+.form-content h2{
+	width:100%;
+	line-height:36px;
+	font-size:16px;
+	text-align:center;
+	
+} 
+table{width:100%;}
+table tr{height:66px;}
+table tr td{padding:0 5px;}
+table tr td:nth-child(odd){width:20%;text-align:center;} 
+input{display:inline-block !important;}
+textarea{width:100%;}
+.img-upload-area{display:inline-block !important;}
