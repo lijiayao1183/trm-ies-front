@@ -268,7 +268,7 @@
 		<dependency>
 		    <groupId>org.elasticsearch</groupId>
 		    <artifactId>elasticsearch</artifactId>
-		    <version>2.3.4</version>
+		    <version>6.8.17</version>
 		</dependency>
 		<!--Begin add by zhaosimiao 2018-5-3 11:22:36 -->
         <!--pdf生成 itext-->
